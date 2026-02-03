@@ -208,7 +208,7 @@ const addToCart = (product) => {
     email: "SamraAmir@gmail.com",
     phone: "+92 300 5688945",
     joinDate: "2026-01-12",
-    avatar: "images/lip4.jfif",
+    avatar: "/Images/lip4.jfif",
     points: 1250,
     level: "Gold Member"
   });

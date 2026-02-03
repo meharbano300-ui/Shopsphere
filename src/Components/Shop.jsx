@@ -7,72 +7,72 @@ import Checkout from "./Checkout";
 
 // Mock Data with Images for Slider 
 const HERO_SLIDES = [
-  { id: 1, title: "ULTIMATE FASHION", sub: "UP TO 70% OFF", bg: "bg-teal-900", img: "images/banner1.jpg", icon: "👕" },
-    { id: 3, title: "PREMIUM DECOR", sub: "ELITE INTERIORS", bg: "bg-rose-900", img: "images/banner2.jfif", icon: "🛋️" },
-  { id: 2, title: "NEXT-GEN Z", sub: "SMART LIVING", bg: "bg-indigo-900", img: "images/banner3.jfif", icon: "🎒" },
+  { id: 1, title: "ULTIMATE FASHION", sub: "UP TO 70% OFF", bg: "bg-teal-900", img: "/Images/banner1.jpg", icon: "👕" },
+    { id: 3, title: "PREMIUM DECOR", sub: "ELITE INTERIORS", bg: "bg-rose-900", img: "/Images/banner2.jfif", icon: "🛋️" },
+  { id: 2, title: "NEXT-GEN Z", sub: "SMART LIVING", bg: "bg-indigo-900", img: "/Images/banner3.jfif", icon: "🎒" },
 
 ];
 const CATEGORIES = [
-  { name: "Bags", img: "images/bag3.jfif" }, 
-  { name: "Lipstick", img: "images/z.jfif" }, 
-  { name: "Shirts", img: "images/men.jfif" },
-  { name: "Shoes", img: "images/shoe.jfif" }, 
-  { name: "Caps", img: "images/cap.jpg" }, 
-   { name: "Jewelry", img: "images/jewel.jfif" },
-  { name: "Jeans", img: "images/jeans.jfif" },
-  { name: "Glasses", img: "images/glassess.jfif" }, 
-  { name: "Clothing", img: "images/women-shirt-2.jfif" }, 
-    { name: "Jewelry", img: "images/img7.jfif" },
-  { name: "Bags", img: "images/n.jfif" },
-  { name: "Watch", img: "images/t.jfif" }, 
+  { name: "Bags", img: "/Images/bag3.jfif" }, 
+  { name: "Lipstick", img: "/Images/z.jfif" }, 
+  { name: "Shirts", img: "/Images/men.jfif" },
+  { name: "Shoes", img: "/Images/shoe.jfif" }, 
+  { name: "Caps", img: "/Images/cap.jpg" }, 
+   { name: "Jewelry", img: "/Images/jewel.jfif" },
+  { name: "Jeans", img: "/Images/jeans.jfif" },
+  { name: "Glasses", img: "/Images/glassess.jfif" }, 
+  { name: "Clothing", img: "/Images/women-shirt-2.jfif" }, 
+    { name: "Jewelry", img: "/Images/img7.jfif" },
+  { name: "Bags", img: "/Images/n.jfif" },
+  { name: "Watch", img: "/Images/t.jfif" }, 
 ];
 
 const INITIAL_PRODUCTS = [
-   { id: 1, cat: "Fashion", name: "Beautiful Lipstick Makeup Tips", price: 24.10, rating: 4.7, stock: 5, total: 30, img: "images/z.jfif" },
-   { id: 2, cat: "Clothing", name: "Urban-Zen Oversized Tee", price: 67.80, rating: 4.9, stock: 12, total: 30, img: "images/q.jfif" },
-   { id: 3, cat: "Apparel", name: "Metro-Swift Sling Pouch", price: 83.00, rating: 5.0, stock: 16, total: 30, img: "images/n.jfif" },
-   { id: 4, cat: "Apparel", name: "Lunar-Phase Chrono Watch", price: 30.00, rating: 4.9, stock: 16, total: 30, img: "images/i.jfif" },
-   { id: 5, cat: "Fashion", name: "Vintage-Wash Graphic Crew", price: 205.00, rating: 4.4, stock: 8, total: 20, img: "images/e.jfif" },
+   { id: 1, cat: "Fashion", name: "Beautiful Lipstick Makeup Tips", price: 24.10, rating: 4.7, stock: 5, total: 30, img: "/Images/z.jfif" },
+   { id: 2, cat: "Clothing", name: "Urban-Zen Oversized Tee", price: 67.80, rating: 4.9, stock: 12, total: 30, img: "/Images/q.jfif" },
+   { id: 3, cat: "Apparel", name: "Metro-Swift Sling Pouch", price: 83.00, rating: 5.0, stock: 16, total: 30, img: "/Images/n.jfif" },
+   { id: 4, cat: "Apparel", name: "Lunar-Phase Chrono Watch", price: 30.00, rating: 4.9, stock: 16, total: 30, img: "/Images/i.jfif" },
+   { id: 5, cat: "Fashion", name: "Vintage-Wash Graphic Crew", price: 205.00, rating: 4.4, stock: 8, total: 20, img: "/Images/e.jfif" },
   
- { id: 6, cat: "Fashion", name: "Stellar-Link Gold Bracelet", price: 294.10, rating: 5.0, stock: 5, total: 30, img: "images/u.jfif" },
- { id: 7, cat: "GLASSESS", name: "Horizon-HD Polarized Aviators", price: 795.80, rating: 4.9, stock: 12, total: 30, img: "images/v.jfif" },
- { id: 8, cat: "WALKERS", name: "Swift-Lite Gym Trainers", price: 265.80, rating: 4.1, stock: 12, total: 30, img: "images/y.jfif" },
- { id: 9, cat: "Apparel", name: "Zen-Stretch Lounge Pants", price: 980.00, rating: 3.5, stock: 16, total: 30, img: "images/d.jfif" },
- { id: 10, cat: "Clothing", name: "Thermo-Guard Quilted Vest", price: 120.80, rating: 2.9, stock: 12, total: 30, img: "images/x.jfif" },
+ { id: 6, cat: "Fashion", name: "Stellar-Link Gold Bracelet", price: 294.10, rating: 5.0, stock: 5, total: 30, img: "/Images/u.jfif" },
+ { id: 7, cat: "GLASSESS", name: "Horizon-HD Polarized Aviators", price: 795.80, rating: 4.9, stock: 12, total: 30, img: "/Images/v.jfif" },
+ { id: 8, cat: "WALKERS", name: "Swift-Lite Gym Trainers", price: 265.80, rating: 4.1, stock: 12, total: 30, img: "/Images/y.jfif" },
+ { id: 9, cat: "Apparel", name: "Zen-Stretch Lounge Pants", price: 980.00, rating: 3.5, stock: 16, total: 30, img: "/Images/d.jfif" },
+ { id: 10, cat: "Clothing", name: "Thermo-Guard Quilted Vest", price: 120.80, rating: 2.9, stock: 12, total: 30, img: "/Images/x.jfif" },
 
-  { id:11, cat: "Fashion", name: " Urban-Flex Denim Jacket", price: 659.10, rating: 4.7, stock: 5, total: 30, img: "images/a.jfif" },
-  { id: 12, cat: "BAGS", name: "Nomad-Pro Waterproof Tote", price: 368.00, rating: 5.0, stock: 35, total: 50, img: "images/h.jfif" },
-  { id: 13, cat: "Apparel", name: "Signature Tailored Chinos", price: 465.00, rating: 1.8, stock: 35, total: 50, img: "images/c.jfif" },
-  { id: 14, cat: "GLASSESS", name: "Street-Icon Snapback Cap", price: 237.00, rating: 3.9, stock: 8, total: 20, img: "images/w.jfif" },
-  { id: 15, cat: "CLOTHING", name: "manti Business Pack", price: 465.00, rating: 4.2, stock: 8, total: 20, img: "images/j.jfif" },
-
-
-  { id: 16, cat: "SHOE", name: " Cloud-Stride Urban Sneakers", price: 76.10, rating: 4.4, stock: 5, total: 30, img: "images/f.jfif" },
-  { id: 17, cat: "PERFUME", name: "Luxury Perfume Bottle with", price: 68.80, rating: 4.0, stock: 12, total: 30, img: "images/dd.jfif" },
-  { id: 18, cat: "TEWELRY", name: "Elegant Rhinestone Jewelry", price: 23.00, rating: 5.0, stock: 8, total: 20, img: "images/cc.jfif" },
-   { id: 19, cat: "Apparel", name: "Premium Crewneck Tee", price: 402.00, rating: 4.4, stock: 16, total: 30, img: "images/fourth.jfif" },
-  { id: 20, cat: "Travel", name: "Anti-Theft Business Pack", price: 760.00, rating: 5.0, stock: 8, total: 20, img: "images/bussines_pack.jfif" },
+  { id:11, cat: "Fashion", name: " Urban-Flex Denim Jacket", price: 659.10, rating: 4.7, stock: 5, total: 30, img: "/Images/a.jfif" },
+  { id: 12, cat: "BAGS", name: "Nomad-Pro Waterproof Tote", price: 368.00, rating: 5.0, stock: 35, total: 50, img: "/Images/h.jfif" },
+  { id: 13, cat: "Apparel", name: "Signature Tailored Chinos", price: 465.00, rating: 1.8, stock: 35, total: 50, img: "/Images/c.jfif" },
+  { id: 14, cat: "GLASSESS", name: "Street-Icon Snapback Cap", price: 237.00, rating: 3.9, stock: 8, total: 20, img: "/Images/w.jfif" },
+  { id: 15, cat: "CLOTHING", name: "manti Business Pack", price: 465.00, rating: 4.2, stock: 8, total: 20, img: "/Images/j.jfif" },
 
 
- { id: 21, cat: "WEARING CAP", name: "Edge-Distressed Trucker Cap", price: 230.10, rating: 4.7, stock: 5, total: 30, img: "images/k.jfif" },
- { id: 22, cat: "WLAKERS SHOES", name: "Nova-Light Breathable Mesh", price: 347.80, rating: 4.1, stock: 12, total: 30, img: "images/l.jfif" },
- { id: 23, cat: "TRAVEL BAGS", name: "Jetstream Expandable Cabin Bag", price: 659.80, rating: 2.9, stock: 12, total: 30, img: "images/m.jfif" },
- { id: 24, cat: "FOOTWEAR", name: "Midnight Royal Embellished Heels", price: 546.80, rating: 2.4, stock: 12, total: 30, img: "images/bb.jfif" },
- { id: 25, cat: "cLOTHING", name: "Women's Elegant Vintage Floral", price: 92.00, rating: 3.5, stock: 8, total: 20, img: "images/o.png" },
+  { id: 16, cat: "SHOE", name: " Cloud-Stride Urban Sneakers", price: 76.10, rating: 4.4, stock: 5, total: 30, img: "/Images/f.jfif" },
+  { id: 17, cat: "PERFUME", name: "Luxury Perfume Bottle with", price: 68.80, rating: 4.0, stock: 12, total: 30, img: "/Images/dd.jfif" },
+  { id: 18, cat: "TEWELRY", name: "Elegant Rhinestone Jewelry", price: 23.00, rating: 5.0, stock: 8, total: 20, img: "/Images/cc.jfif" },
+   { id: 19, cat: "Apparel", name: "Premium Crewneck Tee", price: 402.00, rating: 4.4, stock: 16, total: 30, img: "/Images/fourth.jfif" },
+  { id: 20, cat: "Travel", name: "Anti-Theft Business Pack", price: 760.00, rating: 5.0, stock: 8, total: 20, img: "/Images/bussines_pack.jfif" },
 
 
-  { id: 26, cat: "Fashion", name: "Aero-Fit Performance Polo", price: 70.10, rating: 4.5, stock: 5, total: 30, img: "images/p.jfif" },
-  { id: 27, cat: "Shoes", name: "Air Mesh Athletic Walkers", price: 40.00, rating: 3.9, stock: 35, total: 50, img: "images/walkers.jfif" },
-  { id: 28, cat: "WEARING", name: "Chrono-Max Titanium Watch", price: 20.00, rating: 5.0, stock: 8, total: 20, img: "images/t.jfif" },
-  { id: 29, cat: "Clothing", name: "Midnight-Satin Evening Shirt", price: 15.80, rating: 4.9, stock: 12, total: 30, img: "images/r.jfif" },
-  { id: 30, cat: "LEATHER BAG", name: "Vogue-Strap Leather Crossbody", price: 380.80, rating: 4.8, stock: 12, total: 30, img: "images/s.jfif" },
+ { id: 21, cat: "WEARING CAP", name: "Edge-Distressed Trucker Cap", price: 230.10, rating: 4.7, stock: 5, total: 30, img: "/Images/k.jfif" },
+ { id: 22, cat: "WLAKERS SHOES", name: "Nova-Light Breathable Mesh", price: 347.80, rating: 4.1, stock: 12, total: 30, img: "/Images/l.jfif" },
+ { id: 23, cat: "TRAVEL BAGS", name: "Jetstream Expandable Cabin Bag", price: 659.80, rating: 2.9, stock: 12, total: 30, img: "/Images/m.jfif" },
+ { id: 24, cat: "FOOTWEAR", name: "Midnight Royal Embellished Heels", price: 546.80, rating: 2.4, stock: 12, total: 30, img: "/Images/bb.jfif" },
+ { id: 25, cat: "cLOTHING", name: "Women's Elegant Vintage Floral", price: 92.00, rating: 3.5, stock: 8, total: 20, img: "/Images/nine.jfif" },
 
 
-  { id: 31, cat: "CLOTHING", name: "Oxford Slim-Fit Shirt", price: 40.10, rating: 4.7, stock: 5, total: 30, img: "images/men1.jfif" },
- { id: 32, cat: "FASHION", name: "Unbelievable Verragio Engagement Rings", price: 305.80, rating: 4.1, stock: 12, total: 30, img: "images/aa.jfif" },
- { id: 33, cat: "SHOE", name: "Hydro-Shield Elegant HAT", price: 870.80, rating: 4.2, stock: 12, total: 30, img: "images/g.jfif" },
-  { id: 34, cat: "CLOTHING", name: "Eco-Smart Hoodie Pro", price: 3985.80, rating: 5.9, stock: 12, total: 30, img: "images/Hoodie.jfif" },
-  { id: 35, cat: "Clothing", name: "Aero-Loft Performance Tee", price: 746.80, rating: 3.9, stock: 12, total: 30, img: "images/b.jpg" },
+  { id: 26, cat: "Fashion", name: "Aero-Fit Performance Polo", price: 70.10, rating: 4.5, stock: 5, total: 30, img: "/Images/p.jfif" },
+  { id: 27, cat: "Shoes", name: "Air Mesh Athletic Walkers", price: 40.00, rating: 3.9, stock: 35, total: 50, img: "/Images/walkers.jfif" },
+  { id: 28, cat: "WEARING", name: "Chrono-Max Titanium Watch", price: 20.00, rating: 5.0, stock: 8, total: 20, img: "/Images/t.jfif" },
+  { id: 29, cat: "Clothing", name: "Midnight-Satin Evening Shirt", price: 15.80, rating: 4.9, stock: 12, total: 30, img: "/Images/r.jfif" },
+  { id: 30, cat: "LEATHER BAG", name: "Vogue-Strap Leather Crossbody", price: 380.80, rating: 4.8, stock: 12, total: 30, img: "/Images/s.jfif" },
+
+
+  { id: 31, cat: "CLOTHING", name: "Oxford Slim-Fit Shirt", price: 40.10, rating: 4.7, stock: 5, total: 30, img: "/Images/men1.jfif" },
+ { id: 32, cat: "FASHION", name: "Unbelievable Verragio Engagement Rings", price: 305.80, rating: 4.1, stock: 12, total: 30, img: "/Images/aa.jfif" },
+ { id: 33, cat: "SHOE", name: "Hydro-Shield Elegant HAT", price: 870.80, rating: 4.2, stock: 12, total: 30, img: "/Images/g.jfif" },
+  { id: 34, cat: "CLOTHING", name: "Eco-Smart Hoodie Pro", price: 3985.80, rating: 5.9, stock: 12, total: 30, img: "/Images/Hoodie.jfif" },
+  { id: 35, cat: "Clothing", name: "Aero-Loft Performance Tee", price: 746.80, rating: 3.9, stock: 12, total: 30, img: "/Images/b.jpg" },
 
 ];
 

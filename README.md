@@ -21,7 +21,7 @@ ShopSphere is a high-performance, fully responsive e-commerce web application bu
 To get a local copy up and running, follow these simple steps:
 
 1. Clone the repository
-git clone https://github.com/meharbano300/shopsphere.git
+git clone https://github.com/meharbano300-ui/shopsphere
 2. Install dependencies
 npm install
 3. Start the development server
