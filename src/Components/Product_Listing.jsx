@@ -136,14 +136,14 @@ useEffect(() => {
       oldPrice: 41997,
       rating: 4.3,
       reviews: "4,302",
-      image: "images/Accessories/1.jfif", 
+      image: "/Images/Accessories/1.jfif", 
          // yaha par image gallery ki images ayain gee sari 
         gallery: [
-      "images/Accessories/1a.jfif",     
-      "images/Accessories/1b.jfif",      
-      "images/Accessories/1c.jfif",     
-      "images/Accessories/1d.jfif" ,      
-       "images/Accessories/1e.jfif" 
+      "/Images/Accessories/1a.jfif",     
+      "/Images/Accessories/1b.jfif",      
+      "/Images/Accessories/1c.jfif",     
+      "/Images/Accessories/1d.jfif" ,      
+       "/Images/Accessories/1e.jfif" 
     ],
       boughtPastMonth: "6K+",
       delivery: "Tue, Jan 20",
@@ -158,13 +158,13 @@ useEffect(() => {
       oldPrice: 397597,
       rating: 4.8,
       reviews: "1,250",
-      image: "images/Accessories/2.jfif", 
+      image: "/Images/Accessories/2.jfif", 
         gallery: [
-      "images/Accessories/2a.jfif",     
-      "images/Accessories/2b.jfif",      
-      "images/Accessories/2c.jfif",     
-      "images/Accessories/2d.jfif" ,      
-       "images/Accessories/2e.jfif" 
+      "/Images/Accessories/2a.jfif",     
+      "/Images/Accessories/2b.jfif",      
+      "/Images/Accessories/2c.jfif",     
+      "/Images/Accessories/2d.jfif" ,      
+       "/Images/Accessories/2e.jfif" 
     ],
       boughtPastMonth: "500+",
       delivery: "Tue, Jan 20",
@@ -179,13 +179,13 @@ useEffect(() => {
       oldPrice: 45000,
       rating: 4.5,
       reviews: "2,189",
-      image: "images/Accessories/3.jfif", 
+      image: "/Images/Accessories/3.jfif", 
     gallery: [
-      "images/Accessories/3a.jfif",     
-      "images/Accessories/3b.jfif",      
-      "images/Accessories/3c.jfif",     
-      "images/Accessories/3d.jfif" ,      
-       "images/Accessories/3e.jfif" 
+      "/Images/Accessories/3a.jfif",     
+      "/Images/Accessories/3b.jfif",      
+      "/Images/Accessories/3c.jfif",     
+      "/Images/Accessories/3d.jfif" ,      
+       "/Images/Accessories/3e.jfif" 
     ],
       boughtPastMonth: "2K+",
       delivery: "Wed, Jan 21",
@@ -200,13 +200,13 @@ useEffect(() => {
       oldPrice: 864997,
       rating: 4.3,
       reviews: "9,902",
-      image: "images/Accessories/4.jfif", 
+      image: "/Images/Accessories/4.jfif", 
         gallery: [
-      "images/Accessories/4a.jfif",     
-      "images/Accessories/4b.jfif",      
-      "images/Accessories/4c.jfif",     
-      "images/Accessories/4d.jfif" ,      
-       "images/Accessories/4e.jfif" 
+      "/Images/Accessories/4a.jfif",     
+      "/Images/Accessories/4b.jfif",      
+      "/Images/Accessories/4c.jfif",     
+      "/Images/Accessories/4d.jfif" ,      
+       "/Images/Accessories/4e.jfif" 
     ],
       boughtPastMonth: "87K+",
       delivery: "wede, feb 20",
@@ -221,13 +221,13 @@ useEffect(() => {
       oldPrice: 857597,
       rating: 4.8,
       reviews: "90,50",
-      image: "images/Accessories/5.jfif", 
+      image: "/Images/Accessories/5.jfif", 
         gallery: [
-      "images/Accessories/5a.jfif",     
-      "images/Accessories/5b.jfif",      
-      "images/Accessories/5c.jfif",     
-      "images/Accessories/5d.jfif" ,      
-       "images/Accessories/5e.jfif" 
+      "/Images/Accessories/5a.jfif",     
+      "/Images/Accessories/5b.jfif",      
+      "/Images/Accessories/5c.jfif",     
+      "/Images/Accessories/5d.jfif" ,      
+       "/Images/Accessories/5e.jfif" 
     ],
       boughtPastMonth: "870+",
       delivery: "Fri, novn 30",
@@ -242,13 +242,13 @@ useEffect(() => {
       oldPrice: 756200,
       rating: 4.1,
       reviews: "8,189",
-      image: "images/Accessories/6.jfif", 
+      image: "/Images/Accessories/6.jfif", 
     gallery: [
-      "images/Accessories/6a.jfif",     
-      "images/Accessories/6b.jfif",      
-      "images/Accessories/6c.jfif",     
-      "images/Accessories/6d.jfif" ,      
-       "images/Accessories/6e.jfif" 
+      "/Images/Accessories/6a.jfif",     
+      "/Images/Accessories/6b.jfif",      
+      "/Images/Accessories/6c.jfif",     
+      "/Images/Accessories/6d.jfif" ,      
+       "/Images/Accessories/6e.jfif" 
     ],
       boughtPastMonth: "76K+",
       delivery: "mon, jul 22",
@@ -263,13 +263,13 @@ useEffect(() => {
       oldPrice: 98997,
       rating: 3.3,
       reviews: "657,302",
-      image: "images/Accessories/7.jfif", 
+      image: "/Images/Accessories/7.jfif", 
         gallery: [
-      "images/Accessories/7a.jfif",     
-      "images/Accessories/7b.jfif",      
-      "images/Accessories/7c.jfif",     
-      "images/Accessories/7d.jfif" ,      
-       "images/Accessories/7e.jfif" 
+      "/Images/Accessories/7a.jfif",     
+      "/Images/Accessories/7b.jfif",      
+      "/Images/Accessories/7c.jfif",     
+      "/Images/Accessories/7d.jfif" ,      
+       "/Images/Accessories/7e.jfif" 
     ],
       boughtPastMonth: "35K+",
       delivery: "Thur, jun 10",
@@ -284,13 +284,13 @@ useEffect(() => {
       oldPrice: 97597,
       rating: 2.8,
       reviews: "765,0",
-      image: "images/Accessories/8.jfif", 
+      image: "/Images/Accessories/8.jfif", 
         gallery: [
-      "images/Accessories/8a.jfif",     
-      "images/Accessories/8b.jfif",      
-      "images/Accessories/8c.jfif",     
-      "images/Accessories/8d.jfif" ,      
-       "images/Accessories/8e.jfif" 
+      "/Images/Accessories/8a.jfif",     
+      "/Images/Accessories/8b.jfif",      
+      "/Images/Accessories/8c.jfif",     
+      "/Images/Accessories/8d.jfif" ,      
+       "/Images/Accessories/8e.jfif" 
     ],
       boughtPastMonth: "1290+",
       delivery: "Tues, Dec 12",
@@ -305,13 +305,13 @@ useEffect(() => {
       oldPrice: 4500,
       rating: 4.4,
       reviews: "8,099",
-      image: "images/Accessories/9.jfif", 
+      image: "/Images/Accessories/9.jfif", 
     gallery: [
-      "images/Accessories/9a.jfif",     
-      "images/Accessories/9b.jfif",      
-      "images/Accessories/9c.jfif",     
-      "images/Accessories/9d.jfif" ,      
-       "images/Accessories/9e.jfif" 
+      "/Images/Accessories/9a.jfif",     
+      "/Images/Accessories/9b.jfif",      
+      "/Images/Accessories/9c.jfif",     
+      "/Images/Accessories/9d.jfif" ,      
+       "/Images/Accessories/9e.jfif" 
     ],
       boughtPastMonth: "345K+",
       delivery: "Sat, April 16",
@@ -326,13 +326,13 @@ useEffect(() => {
       oldPrice: 997,
       rating: 4.0,
       reviews: "87,02",
-      image: "images/Accessories/10.jfif", 
+      image: "/Images/Accessories/10.jfif", 
         gallery: [
-      "images/Accessories/10a.jfif",     
-      "images/Accessories/10b.jfif",      
-      "images/Accessories/10c.jfif",     
-      "images/Accessories/10d.jfif" ,      
-       "images/Accessories/10e.jfif" 
+      "/Images/Accessories/10a.jfif",     
+      "/Images/Accessories/10b.jfif",      
+      "/Images/Accessories/10c.jfif",     
+      "/Images/Accessories/10d.jfif" ,      
+       "/Images/Accessories/10e.jfif" 
     ],
       boughtPastMonth: "39K+",
       delivery: "Tue, Dec 3",
@@ -347,13 +347,13 @@ useEffect(() => {
       oldPrice: 2437,
       rating: 4.9,
       reviews: "62,680",
-      image: "images/Accessories/11.jfif", 
+      image: "/Images/Accessories/11.jfif", 
         gallery: [
-      "images/Accessories/11a.jfif",     
-      "images/Accessories/11b.jfif",      
-      "images/Accessories/11c.jfif",     
-      "images/Accessories/11d.jfif" ,      
-       "images/Accessories/11e.jfif" 
+      "/Images/Accessories/11a.jfif",     
+      "/Images/Accessories/11b.jfif",      
+      "/Images/Accessories/11c.jfif",     
+      "/Images/Accessories/11d.jfif" ,      
+       "/Images/Accessories/11e.jfif" 
     ],
       boughtPastMonth: "800+",
       delivery: "Tues, May 5",
@@ -368,13 +368,13 @@ useEffect(() => {
       oldPrice: 4900,
       rating: 3.5,
       reviews: "546,09",
-      image: "images/Accessories/12.jfif", 
+      image: "/Images/Accessories/12.jfif", 
     gallery: [
-      "images/Accessories/12a.jfif",     
-      "images/Accessories/12b.jfif",      
-      "images/Accessories/12c.jfif",     
-      "images/Accessories/12d.jfif" ,      
-       "images/Accessories/12e.jfif" 
+      "/Images/Accessories/12a.jfif",     
+      "/Images/Accessories/12b.jfif",      
+      "/Images/Accessories/12c.jfif",     
+      "/Images/Accessories/12d.jfif" ,      
+       "/Images/Accessories/12e.jfif" 
     ],
       boughtPastMonth: "34K+",
       delivery: "Wed, March 31",
@@ -389,13 +389,13 @@ useEffect(() => {
       oldPrice: 23997,
       rating: 4.1,
       reviews: "12,872",
-      image: "images/Accessories/13.jfif", 
+      image: "/Images/Accessories/13.jfif", 
         gallery: [
-      "images/Accessories/13a.jfif",     
-      "images/Accessories/13b.jfif",      
-      "images/Accessories/13c.jfif",     
-      "images/Accessories/13d.jfif" ,      
-       "images/Accessories/13e.jfif" 
+      "/Images/Accessories/13a.jfif",     
+      "/Images/Accessories/13b.jfif",      
+      "/Images/Accessories/13c.jfif",     
+      "/Images/Accessories/13d.jfif" ,      
+       "/Images/Accessories/13e.jfif" 
     ],
       boughtPastMonth: "87K+",
       delivery: "Mon, August 14",
@@ -410,13 +410,13 @@ useEffect(() => {
       oldPrice: 37597,
       rating: 2.8,
       reviews: "91,250",
-      image: "images/Accessories/14.jfif", 
+      image: "/Images/Accessories/14.jfif", 
         gallery: [
-      "images/Accessories/14a.jfif",     
-      "images/Accessories/14b.jfif",      
-      "images/Accessories/14c.jfif",     
-      "images/Accessories/14d.jfif" ,      
-       "images/Accessories/14e.jfif" 
+      "/Images/Accessories/14a.jfif",     
+      "/Images/Accessories/14b.jfif",      
+      "/Images/Accessories/14c.jfif",     
+      "/Images/Accessories/14d.jfif" ,      
+       "/Images/Accessories/14e.jfif" 
     ],
       boughtPastMonth: "35+",
       delivery: "Fri, Oct 30",
@@ -431,13 +431,13 @@ useEffect(() => {
       oldPrice: 45000,
       rating: 4.5,
       reviews: "2,189",
-      image: "images/Accessories/15.jfif", 
+      image: "/Images/Accessories/15.jfif", 
     gallery: [
-      "images/Accessories/15a.jfif",     
-      "images/Accessories/15b.jfif",      
-      "images/Accessories/15c.jfif",     
-      "images/Accessories/15d.jfif" ,      
-       "images/Accessories/15e.jfif" 
+      "/Images/Accessories/15a.jfif",     
+      "/Images/Accessories/15b.jfif",      
+      "/Images/Accessories/15c.jfif",     
+      "/Images/Accessories/15d.jfif" ,      
+       "/Images/Accessories/15e.jfif" 
     ],
       boughtPastMonth: "69K+",
       delivery: "Thur, Nov 21",

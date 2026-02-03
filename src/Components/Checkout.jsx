@@ -733,11 +733,11 @@ const features = [
    </div>
     <div className="flex flex-wrap justify-center gap-6 items-center">
       {[
-        { name: 'Visa', url: 'images/Icons/Visa_logo.svg' },
-        { name: 'Mastercard', url: 'images/Icons/Mastercard-logo.svg' },
-        { name: 'Amex', url: 'images/Icons/strip.svg' },
-        { name: 'PayPal', url: 'images/Icons/PayPal.svg' },
-        { name: 'ApplePay', url: 'images/Icons/mastercard-6.svg' }
+        { name: 'Visa', url: '/Images/Icons/Visa_logo.svg' },
+        { name: 'Mastercard', url: '/Images/Icons/Mastercard-logo.svg' },
+        { name: 'Amex', url: '/Images/Icons/strip.svg' },
+        { name: 'PayPal', url: '/Images/Icons/PayPal.svg' },
+        { name: 'ApplePay', url: '/Images/Icons/mastercard-6.svg' }
       ].map((method) => (
         <motion.div 
           key={method.name} 

@@ -47,21 +47,21 @@ const EcommerceCategoriesPage = () => {
   const slides = [
     {
       id: 1,
-      image: "images/ban1.jfif",
+      image: "/Images/ban1.jfif",
       title: "Elevate Digital Lifestyle",
       subtitle: "Innovative gadgets for your modern home.",
       btnText: "Explore More",
     },
     {
       id: 2,
-      image: "images/ban2.jfif",
+      image: "/Images/ban2.jfif",
       title: "Next-Gen Trends ",
       subtitle: "Sustainability meets high-end design.",
       btnText: "View Trends",
     },
     {
       id: 3,
-      image: "images/ban3.jfif",
+      image: "/Images/ban3.jfif",
       title: "Future of Fashion",
       subtitle: "Elevate your lifestyle with ShopSphere.",
       btnText: "Shop Now",
@@ -121,7 +121,7 @@ const EcommerceCategoriesPage = () => {
       subCategories: ["Dresses", "Tops", "Bottoms", "Outerwear", "Activewear", "Lingerie"],
       tags: ["New Arrivals", "Summer Collection", "Premium"],
       rating: 4.7,
-      image: "images/categories/cat1.jfif"
+      image: "/Images/categories/cat1.jfif"
     },
     { 
       id: 2, 
@@ -134,7 +134,7 @@ const EcommerceCategoriesPage = () => {
       subCategories: ["Shirts", "Pants", "Suits", "Casual Wear", "Formal Wear", "Accessories"],
       tags: ["Best Sellers", "Limited Edition", "Trending"],
       rating: 4.5,
-      image: "images/categories/cat13.jfif"
+      image: "/Images/categories/cat13.jfif"
     },
     { 
       id: 3, 
@@ -147,7 +147,7 @@ const EcommerceCategoriesPage = () => {
       subCategories: ["Baby Clothing", "Toys", "Educational", "Outdoor", "Board Games"],
       tags: ["Educational", "Safe", "Popular"],
       rating: 4.8,
-      image: "images/categories/cat15.jfif"
+      image: "/Images/categories/cat15.jfif"
     },
     { 
       id: 4, 
@@ -160,7 +160,7 @@ const EcommerceCategoriesPage = () => {
       subCategories: ["Mobile Phones", "Laptops", "Audio", "Gaming", "Smart Home"],
       tags: ["Latest Tech", "Gaming", "Smart Devices"],
       rating: 4.6,
-      image: "images/categories/cat11.jfif"
+      image: "/Images/categories/cat11.jfif"
     },
     { 
       id: 5, 
@@ -173,7 +173,7 @@ const EcommerceCategoriesPage = () => {
       subCategories: ["Furniture", "Lighting", "Wall Decor", "Kitchen", "Bath"],
       tags: ["Modern", "Minimalist", "Luxury"],
       rating: 4.4,
-      image: "images/categories/cat9.jfif"
+      image: "/Images/categories/cat9.jfif"
     },
     { 
       id: 6, 
@@ -186,7 +186,7 @@ const EcommerceCategoriesPage = () => {
       subCategories: ["Skincare", "Makeup", "Fragrances", "Wellness", "Hair Care"],
       tags: ["Organic", "Cruelty-Free", "Premium"],
       rating: 4.9,
-      image: "images/categories/cat7.jfif"
+      image: "/Images/categories/cat7.jfif"
     },
     { 
       id: 7, 
@@ -199,7 +199,7 @@ const EcommerceCategoriesPage = () => {
       subCategories: ["Gym Equipment", "Sportswear", "Supplements", "Outdoor Gear"],
       tags: ["Professional", "Home Workout", "Performance", "Gym", "Yoga", ],
       rating: 4.7,
-      image: "images/categories/cat16.jfif"
+      image: "/Images/categories/cat16.jfif"
     },
      { 
       id: 9, 
@@ -212,7 +212,7 @@ const EcommerceCategoriesPage = () => {
       subCategories: ["Fresh Produce", "Dairy", "Snacks", "Beverages", "Frozen"],
       tags: ["New Arrivals", "Summer Collection", "Premium"],
       rating: 4.8,
-      image: "images/categories/cat5.jfif"
+      image: "/Images/categories/cat5.jfif"
     },
     { 
       id: 8, 
@@ -225,7 +225,7 @@ const EcommerceCategoriesPage = () => {
       subCategories: ["Fresh Produce", "Dairy", "Snacks", "Beverages", "Frozen"],
       tags: ["Gym Equipment", "Sportswear", "Supplements", "Outdoor Gear"],
       rating: 4.8,
-      image: "images/categories/cat3.jfif"
+      image: "/Images/categories/cat3.jfif"
     },
            { 
       id: 10, 
@@ -238,7 +238,7 @@ const EcommerceCategoriesPage = () => {
       subCategories: ["Shirts", "Pants", "Suits", "Casual Wear", "Formal Wear", "Accessories"],
       tags: ["Best Sellers", "Limited Edition", "Trending"],
       rating: 4.5,
-      image: "images/categories/cat14.jfif"
+      image: "/Images/categories/cat14.jfif"
     },    
         { 
       id: 11, 
@@ -251,7 +251,7 @@ const EcommerceCategoriesPage = () => {
       subCategories: ["Fresh Produce", "Dairy", "Snacks", "Beverages", "Frozen"],
       tags: ["Fresh", "Organic", "Local"],
       rating: 4.8,
-      image: "images/categories/cat6.jfif"
+      image: "/Images/categories/cat6.jfif"
     },
     { 
       id: 12, 
@@ -264,7 +264,7 @@ const EcommerceCategoriesPage = () => {
        subCategories: ["Mobile Phones", "Laptops", "Audio", "Gaming", "Smart Home"],
       tags: ["Latest Tech", "Gaming", "Smart Devices"],
       rating: 4.8,
-      image: "images/categories/cat12.jfif"
+      image: "/Images/categories/cat12.jfif"
     },
   ];
 
@@ -962,9 +962,9 @@ const EcommerceCategoriesPage = () => {
         <div className="flex items-center gap-3 mb-6">
           <div className="flex -space-x-3">
           {[
-              "images/x.jfif",
-              "images/r.jfif",
-              "images/u.jfif"
+              "/Images/x.jfif",
+              "/Images/r.jfif",
+              "/Images/u.jfif"
             ].map((url, i) => (
               <div key={i} className="w-7 h-7 rounded-full border-2 border-white flex items-center justify-center overflow-hidden grayscale hover:grayscale-0 transition-all duration-300 shadow-md">
                   <img src={url} alt={`Buyer ${i}`} className="w-full h-full object-cover" />

@@ -156,11 +156,11 @@ const addToCart = (product) => {
   // Agar aapke product data mein "images" ka array hai to wo uthayega, werna yeh images use honge 
   const galleryImages = product.gallery || [
     product.image, 
-    "images/img7.jfif",
-    "images/lip6.jfif",
-    "images/r.jfif",
-    "images/n.jfif",
-    "images/u.jfif",
+    "/Images/img7.jfif",
+    "/Images/lip6.jfif",
+    "/Images/r.jfif",
+    "/Images/n.jfif",
+    "/Images/u.jfif",
     ,
   ];
 
@@ -540,21 +540,21 @@ const handleBuyNow = () => {
 {/* --- ADVANCED PREMIUM CATEGORIES GRID (Clean Styled Version) --- */}
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 font-sans bg-[#ffffff]  px-10">
   {[
-    { id: 1, name: "Women's Fashion", image: "images/categories/pro3.jfif", discount: "20%",  iconImg: "https://cdn-icons-png.flaticon.com/512/3531/3531821.png" },
-    { id: 2, name: "Home Decor", image: "images/categories/pro1.jfif", discount: "25%", iconImg: "https://cdn-icons-png.flaticon.com/512/3724/3724720.png" },
-    { id: 3, name: "Men's Fashion", image: "images/categories/pro5.jfif", discount: "15%", iconImg: "https://cdn-icons-png.flaticon.com/512/3531/3531744.png" },
-    { id: 4, name: "Kid's Fashion", image: "images/categories/pro10.jfif", discount: "30%", iconImg: "https://cdn-icons-png.flaticon.com/512/2641/2641642.png" },
-    { id: 5, name: "Electronics", image: "images/categories/pro8.jfif", discount: "10%", iconImg: "https://cdn-icons-png.flaticon.com/512/3113/3113858.png" },
-    { id: 6, name: "Women's Fashion", image: "images/categories/pro4.jfif", discount: "20%", iconImg: "https://cdn-icons-png.flaticon.com/512/3531/3531821.png" },
-    { id: 7, name: "Home Decor", image: "images/categories/pro2.jfif", discount: "25%", iconImg: "https://cdn-icons-png.flaticon.com/512/3724/3724720.png" },
-    { id: 8, name: "Men's Fashion", image: "images/categories/pro6.jfif", discount: "15%", iconImg: "https://cdn-icons-png.flaticon.com/512/3531/3531744.png" },
-    { id: 9, name: "Kid's Fashion", image: "images/categories/pro11.jfif", discount: "30%", iconImg: "https://cdn-icons-png.flaticon.com/512/3081/3081913.png" },
-    { id: 10, name: "Electronics", image: "images/categories/pro9.jfif", discount: "10%", iconImg: "https://cdn-icons-png.flaticon.com/512/3113/3113858.png" },
-      { id: 6, name: "Women's Fashion", image: "images/categories/pro13.jfif", discount: "20%", iconImg: "https://cdn-icons-png.flaticon.com/512/3531/3531821.png" },
-    { id: 7, name: "Home Decor", image: "images/categories/pro16.jfif", discount: "25%", iconImg: "https://cdn-icons-png.flaticon.com/512/3724/3724720.png" },
-    { id: 8, name: "Men's Fashion", image: "images/categories/pro14.jfif", discount: "15%", iconImg: "https://cdn-icons-png.flaticon.com/512/3531/3531744.png" },
-    { id: 9, name: "Kid's Fashion", image: "images/categories/pro17.jfif", discount: "30%", iconImg: "https://cdn-icons-png.flaticon.com/512/3081/3081913.png" },
-    { id: 10, name: "Electronics", image: "images/categories/pro15.jfif", discount: "10%", iconImg: "https://cdn-icons-png.flaticon.com/512/3113/3113858.png" },
+    { id: 1, name: "Women's Fashion", image: "/Images/categories/pro3.jfif", discount: "20%",  iconImg: "https://cdn-icons-png.flaticon.com/512/3531/3531821.png" },
+    { id: 2, name: "Home Decor", image: "/Images/categories/pro1.jfif", discount: "25%", iconImg: "https://cdn-icons-png.flaticon.com/512/3724/3724720.png" },
+    { id: 3, name: "Men's Fashion", image: "/Images/categories/pro5.jfif", discount: "15%", iconImg: "https://cdn-icons-png.flaticon.com/512/3531/3531744.png" },
+    { id: 4, name: "Kid's Fashion", image: "/Images/categories/pro10.jfif", discount: "30%", iconImg: "https://cdn-icons-png.flaticon.com/512/2641/2641642.png" },
+    { id: 5, name: "Electronics", image: "/Images/categories/pro8.jfif", discount: "10%", iconImg: "https://cdn-icons-png.flaticon.com/512/3113/3113858.png" },
+    { id: 6, name: "Women's Fashion", image: "/Images/categories/pro4.jfif", discount: "20%", iconImg: "https://cdn-icons-png.flaticon.com/512/3531/3531821.png" },
+    { id: 7, name: "Home Decor", image: "/Images/categories/pro2.jfif", discount: "25%", iconImg: "https://cdn-icons-png.flaticon.com/512/3724/3724720.png" },
+    { id: 8, name: "Men's Fashion", image: "/Images/categories/pro6.jfif", discount: "15%", iconImg: "https://cdn-icons-png.flaticon.com/512/3531/3531744.png" },
+    { id: 9, name: "Kid's Fashion", image: "/Images/categories/pro11.jfif", discount: "30%", iconImg: "https://cdn-icons-png.flaticon.com/512/3081/3081913.png" },
+    { id: 10, name: "Electronics", image: "/Images/categories/pro9.jfif", discount: "10%", iconImg: "https://cdn-icons-png.flaticon.com/512/3113/3113858.png" },
+      { id: 6, name: "Women's Fashion", image: "/Images/categories/pro13.jfif", discount: "20%", iconImg: "https://cdn-icons-png.flaticon.com/512/3531/3531821.png" },
+    { id: 7, name: "Home Decor", image: "/Images/categories/pro16.jfif", discount: "25%", iconImg: "https://cdn-icons-png.flaticon.com/512/3724/3724720.png" },
+    { id: 8, name: "Men's Fashion", image: "/Images/categories/pro14.jfif", discount: "15%", iconImg: "https://cdn-icons-png.flaticon.com/512/3531/3531744.png" },
+    { id: 9, name: "Kid's Fashion", image: "/Images/categories/pro17.jfif", discount: "30%", iconImg: "https://cdn-icons-png.flaticon.com/512/3081/3081913.png" },
+    { id: 10, name: "Electronics", image: "/Images/categories/pro15.jfif", discount: "10%", iconImg: "https://cdn-icons-png.flaticon.com/512/3113/3113858.png" },
   ].map((category, index) => (
     <div
       key={category.id}
@@ -608,9 +608,9 @@ const handleBuyNow = () => {
         <div className="flex items-center gap-3 mb-4">
           <div className="flex -space-x-3">
             {[
-              "images/c.jfif",
-              "images/d.jfif",
-              "images/e.jfif"
+              "/Images/c.jfif",
+              "/Images/d.jfif",
+              "/Images/e.jfif"
             ].map((url, i) => (
               <div key={i} className="w-7 h-7 rounded-full border-2 border-white flex items-center justify-center overflow-hidden shadow-md transition-transform hover:scale-110 hover:z-20">
                   <img src={url} alt="buyer" className="w-full h-full object-cover" />

@@ -134,14 +134,14 @@ useEffect(() => {
       oldPrice: 41997,
       rating: 4.3,
       reviews: "4,302",
-      image: "images/Watch/1.jfif", 
+      image: "/Images/Watch/1.jfif", 
          // yaha par image gallery ki images ayain gee sari 
         gallery: [
-      "images/Watch/1a.jfif",     
-      "images/Watch/1b.jfif",      
-      "images/Watch/1c.jfif",     
-      "images/Watch/1d.jfif" ,      
-       "images/Watch/1e.jfif" 
+      "/Images/Watch/1a.jfif",     
+      "/Images/Watch/1b.jfif",      
+      "/Images/Watch/1c.jfif",     
+      "/Images/Watch/1d.jfif" ,      
+       "/Images/Watch/1e.jfif" 
     ],
       boughtPastMonth: "6K+",
       delivery: "Tue, Jan 20",
@@ -156,13 +156,13 @@ useEffect(() => {
       oldPrice: 397597,
       rating: 4.8,
       reviews: "1,250",
-      image: "images/Watch/2.jfif", 
+      image: "/Images/Watch/2.jfif", 
         gallery: [
-      "images/Watch/2a.jfif",     
-      "images/Watch/2b.jfif",      
-      "images/Watch/2c.jfif",     
-      "images/Watch/2d.jfif" ,      
-       "images/Watch/2e.jfif" 
+      "/Images/Watch/2a.jfif",     
+      "/Images/Watch/2b.jfif",      
+      "/Images/Watch/2c.jfif",     
+      "/Images/Watch/2d.jfif" ,      
+       "/Images/Watch/2e.jfif" 
     ],
       boughtPastMonth: "500k+",
       delivery: "Tue, Jan 20",
@@ -177,13 +177,13 @@ useEffect(() => {
       oldPrice: 45000,
       rating: 4.5,
       reviews: "2,189",
-      image: "images/Watch/3.jfif", 
+      image: "/Images/Watch/3.jfif", 
     gallery: [
-      "images/Watch/3a.jfif",     
-      "images/Watch/3b.jfif",      
-      "images/Watch/3c.jfif",     
-      "images/Watch/3d.jfif" ,      
-       "images/Watch/3e.jfif" 
+      "/Images/Watch/3a.jfif",     
+      "/Images/Watch/3b.jfif",      
+      "/Images/Watch/3c.jfif",     
+      "/Images/Watch/3d.jfif" ,      
+       "/Images/Watch/3e.jfif" 
     ],
       boughtPastMonth: "2K+",
       delivery: "Wed, Jan 21",
@@ -198,13 +198,13 @@ useEffect(() => {
       oldPrice: 864997,
       rating: 4.3,
       reviews: "9,902",
-      image: "images/Watch/4.jfif", 
+      image: "/Images/Watch/4.jfif", 
         gallery: [
-      "images/Watch/4a.jfif",     
-      "images/Watch/4b.jfif",      
-      "images/Watch/4c.jfif",     
-      "images/Watch/4d.jfif" ,      
-       "images/Watch/4e.jfif" 
+      "/Images/Watch/4a.jfif",     
+      "/Images/Watch/4b.jfif",      
+      "/Images/Watch/4c.jfif",     
+      "/Images/Watch/4d.jfif" ,      
+       "/Images/Watch/4e.jfif" 
     ],
       boughtPastMonth: "87K+",
       delivery: "wede, feb 20",
@@ -219,13 +219,13 @@ useEffect(() => {
       oldPrice: 857597,
       rating: 4.8,
       reviews: "90,50",
-      image: "images/Watch/5.jfif", 
+      image: "/Images/Watch/5.jfif", 
         gallery: [
-      "images/Watch/5a.jfif",     
-      "images/Watch/5b.jfif",      
-      "images/Watch/5c.jfif",     
-      "images/Watch/5d.jfif" ,      
-       "images/Watch/5e.jfif" 
+      "/Images/Watch/5a.jfif",     
+      "/Images/Watch/5b.jfif",      
+      "/Images/Watch/5c.jfif",     
+      "/Images/Watch/5d.jfif" ,      
+       "/Images/Watch/5e.jfif" 
     ],
       boughtPastMonth: "870+",
       delivery: "Fri, novn 30",
@@ -240,13 +240,13 @@ useEffect(() => {
       oldPrice: 756200,
       rating: 4.1,
       reviews: "8,189",
-      image: "images/Watch/6.jfif", 
+      image: "/Images/Watch/6.jfif", 
     gallery: [
-      "images/Watch/6a.jfif",     
-      "images/Watch/6b.jfif",      
-      "images/Watch/6c.jfif",     
-      "images/Watch/6d.jfif" ,      
-       "images/Watch/6e.jfif" 
+      "/Images/Watch/6a.jfif",     
+      "/Images/Watch/6b.jfif",      
+      "/Images/Watch/6c.jfif",     
+      "/Images/Watch/6d.jfif" ,      
+       "/Images/Watch/6e.jfif" 
     ],
       boughtPastMonth: "76K+",
       delivery: "mon, jul 22",
@@ -261,13 +261,13 @@ useEffect(() => {
       oldPrice: 98997,
       rating: 3.3,
       reviews: "657,302",
-      image: "images/Watch/7.jfif", 
+      image: "/Images/Watch/7.jfif", 
         gallery: [
-      "images/Watch/7a.jfif",     
-      "images/Watch/7b.jfif",      
-      "images/Watch/7c.jfif",     
-      "images/Watch/7d.jfif" ,      
-       "images/Watch/7e.jfif" 
+      "/Images/Watch/7a.jfif",     
+      "/Images/Watch/7b.jfif",      
+      "/Images/Watch/7c.jfif",     
+      "/Images/Watch/7d.jfif" ,      
+       "/Images/Watch/7e.jfif" 
     ],
       boughtPastMonth: "35K+",
       delivery: "Thur, jun 10",
@@ -282,13 +282,13 @@ useEffect(() => {
       oldPrice: 97597,
       rating: 2.8,
       reviews: "765,0",
-      image: "images/Watch/8.jfif", 
+      image: "/Images/Watch/8.jfif", 
         gallery: [
-      "images/Watch/8a.jfif",     
-      "images/Watch/8b.jfif",      
-      "images/Watch/8c.jfif",     
-      "images/Watch/8d.jfif" ,      
-       "images/Watch/8e.jfif" 
+      "/Images/Watch/8a.jfif",     
+      "/Images/Watch/8b.jfif",      
+      "/Images/Watch/8c.jfif",     
+      "/Images/Watch/8d.jfif" ,      
+       "/Images/Watch/8e.jfif" 
     ],
       boughtPastMonth: "1290+",
       delivery: "Tues, Dec 12",
@@ -303,13 +303,13 @@ useEffect(() => {
       oldPrice: 4500,
       rating: 4.4,
       reviews: "8,099",
-      image: "images/Watch/9.jfif", 
+      image: "/Images/Watch/9.jfif", 
     gallery: [
-      "images/Watch/9a.jfif",     
-      "images/Watch/9b.jfif",      
-      "images/Watch/9c.jfif",     
-      "images/Watch/9d.jfif" ,      
-       "images/Watch/9e.jfif" 
+      "/Images/Watch/9a.jfif",     
+      "/Images/Watch/9b.jfif",      
+      "/Images/Watch/9c.jfif",     
+      "/Images/Watch/9d.jfif" ,      
+       "/Images/Watch/9e.jfif" 
     ],
       boughtPastMonth: "345K+",
       delivery: "Sat, April 16",
@@ -324,13 +324,13 @@ useEffect(() => {
       oldPrice: 997,
       rating: 4.0,
       reviews: "87,02",
-      image: "images/Watch/10.jfif", 
+      image: "/Images/Watch/10.jfif", 
         gallery: [
-      "images/Watch/10a.jfif",     
-      "images/Watch/10b.jfif",      
-      "images/Watch/10c.jfif",     
-      "images/Watch/10d.jfif" ,      
-       "images/Watch/10e.jfif" 
+      "/Images/Watch/10a.jfif",     
+      "/Images/Watch/10b.jfif",      
+      "/Images/Watch/10c.jfif",     
+      "/Images/Watch/10d.jfif" ,      
+       "/Images/Watch/10e.jfif" 
     ],
       boughtPastMonth: "39K+",
       delivery: "Tue, Dec 3",
@@ -345,13 +345,13 @@ useEffect(() => {
       oldPrice: 2437,
       rating: 4.9,
       reviews: "62,680",
-      image: "images/Watch/11.jfif", 
+      image: "/Images/Watch/11.jfif", 
         gallery: [
-      "images/Watch/11a.jfif",     
-      "images/Watch/11b.jfif",      
-      "images/Watch/11c.jfif",     
-      "images/Watch/11d.jfif" ,      
-       "images/Watch/11e.jfif" 
+      "/Images/Watch/11a.jfif",     
+      "/Images/Watch/11b.jfif",      
+      "/Images/Watch/11c.jfif",     
+      "/Images/Watch/11d.jfif" ,      
+       "/Images/Watch/11e.jfif" 
     ],
       boughtPastMonth: "800+",
       delivery: "Tues, May 5",
@@ -366,13 +366,13 @@ useEffect(() => {
       oldPrice: 4900,
       rating: 3.5,
       reviews: "546,09",
-      image: "images/Watch/12.jfif", 
+      image: "/Images/Watch/12.jfif", 
     gallery: [
-      "images/Watch/12a.jfif",     
-      "images/Watch/12b.jfif",      
-      "images/Watch/12c.jfif",     
-      "images/Watch/12d.jfif" ,      
-       "images/Watch/12e.jfif" 
+      "/Images/Watch/12a.jfif",     
+      "/Images/Watch/12b.jfif",      
+      "/Images/Watch/12c.jfif",     
+      "/Images/Watch/12d.jfif" ,      
+       "/Images/Watch/12e.jfif" 
     ],
       boughtPastMonth: "34K+",
       delivery: "Wed, March 31",
@@ -387,13 +387,13 @@ useEffect(() => {
       oldPrice: 23997,
       rating: 4.1,
       reviews: "12,872",
-      image: "images/Watch/13.jfif", 
+      image: "/Images/Watch/13.jfif", 
         gallery: [
-      "images/Watch/13a.jfif",     
-      "images/Watch/13b.jfif",      
-      "images/Watch/13c.jfif",     
-      "images/Watch/13d.jfif" ,      
-       "images/Watch/13e.jfif" 
+      "/Images/Watch/13a.jfif",     
+      "/Images/Watch/13b.jfif",      
+      "/Images/Watch/13c.jfif",     
+      "/Images/Watch/13d.jfif" ,      
+       "/Images/Watch/13e.jfif" 
     ],
       boughtPastMonth: "87K+",
       delivery: "Mon, August 14",
@@ -408,13 +408,13 @@ useEffect(() => {
       oldPrice: 37597,
       rating: 2.8,
       reviews: "91,250",
-      image: "images/Watch/14.jfif", 
+      image: "/Images/Watch/14.jfif", 
         gallery: [
-      "images/Watch/14a.jfif",     
-      "images/Watch/14b.jfif",      
-      "images/Watch/14c.jfif",     
-      "images/Watch/14d.jfif" ,      
-       "images/Watch/14e.jfif" 
+      "/Images/Watch/14a.jfif",     
+      "/Images/Watch/14b.jfif",      
+      "/Images/Watch/14c.jfif",     
+      "/Images/Watch/14d.jfif" ,      
+       "/Images/Watch/14e.jfif" 
     ],
       boughtPastMonth: "35+",
       delivery: "Fri, Oct 30",
@@ -429,13 +429,13 @@ useEffect(() => {
       oldPrice: 45000,
       rating: 4.5,
       reviews: "2,189",
-      image: "images/Watch/15.jfif", 
+      image: "/Images/Watch/15.jfif", 
     gallery: [
-      "images/Watch/15a.jfif",     
-      "images/Watch/15b.jfif",      
-      "images/Watch/15c.jfif",     
-      "images/Watch/15d.jfif" ,      
-       "images/Watch/15e.jfif" 
+      "/Images/Watch/15a.jfif",     
+      "/Images/Watch/15b.jfif",      
+      "/Images/Watch/15c.jfif",     
+      "/Images/Watch/15d.jfif" ,      
+       "/Images/Watch/15e.jfif" 
     ],
       boughtPastMonth: "69K+",
       delivery: "Thur, Nov 21",

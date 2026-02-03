@@ -59,7 +59,7 @@ import { useNavigate } from 'react-router-dom';
           exit="exit"
           className="relative w-full max-w-[950px] h-[620px] rounded-[15px] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.6)] flex border border-white/30"
           style={{
-            backgroundImage: `url('images/imgg.png')`, 
+            backgroundImage: `url('/Images/imgg.png')`, 
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

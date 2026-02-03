@@ -66,7 +66,6 @@ const features = [
   { 
     title: 'Pure Quality', 
     sub: 'Certified Excellence', 
-    // Minimalist Diamond/Premium icon
     icon: 'https://cdn-icons-png.flaticon.com/512/12108/12108157.png', 
     accent: 'from-blue-800 to-blue-600',
     shadow: 'group-hover:shadow-blue-200/50'
@@ -74,7 +73,6 @@ const features = [
   { 
     title: 'Fluid Returns', 
     sub: '30-Day Ecosystem', 
-    // Dynamic Exchange/Return icon
     icon: 'https://cdn-icons-png.flaticon.com/512/3502/3502154.png', 
     accent: 'from-orange-400 to-yellow-500',
     shadow: 'group-hover:shadow-orange-100/50'
@@ -135,14 +133,14 @@ useEffect(() => {
       oldPrice: 41997,
       rating: 4.3,
       reviews: "4,302",
-      image: "images/Bags/1.jfif", 
+      image: "/Images/Bags/1.jfif", 
          // yaha par image gallery ki images ayain gee sari 
         gallery: [
-      "images/Bags/1a.jfif",     
-      "images/Bags/1b.jfif",      
-      "images/Bags/1c.jfif",     
-      "images/Bags/1d.jfif" ,      
-       "images/Bags/1e.jfif" 
+      "/Images/Bags/1a.jfif",     
+      "/Images/Bags/1b.jfif",      
+      "/Images/Bags/1c.jfif",     
+      "/Images/Bags/1d.jfif" ,      
+       "/Images/Bags/1e.jfif" 
     ],
       boughtPastMonth: "6K+",
       delivery: "Tue, Jan 20",
@@ -157,13 +155,13 @@ useEffect(() => {
       oldPrice: 397597,
       rating: 4.8,
       reviews: "1,250",
-      image: "images/Bags/2.jfif", 
+      image: "/Images/Bags/2.jfif", 
         gallery: [
-      "images/Bags/2a.jfif",     
-      "images/Bags/2b.jfif",      
-      "images/Bags/2c.jfif",     
-      "images/Bags/2d.jfif" ,      
-       "images/Bags/2e.jfif" 
+      "/Images/Bags/2a.jfif",     
+      "/Images/Bags/2b.jfif",      
+      "/Images/Bags/2c.jfif",     
+      "/Images/Bags/2d.jfif" ,      
+       "/Images/Bags/2e.jfif" 
     ],
       boughtPastMonth: "500k+",
       delivery: "Tue, Jan 20",
@@ -178,13 +176,13 @@ useEffect(() => {
       oldPrice: 45000,
       rating: 4.5,
       reviews: "2,189",
-      image: "images/Bags/3.jfif", 
+      image: "/Images/Bags/3.jfif", 
     gallery: [
-      "images/Bags/3a.jfif",     
-      "images/Bags/3b.jfif",      
-      "images/Bags/3c.jfif",     
-      "images/Bags/3d.jfif" ,      
-       "images/Bags/3e.jfif" 
+      "/Images/Bags/3a.jfif",     
+      "/Images/Bags/3b.jfif",      
+      "/Images/Bags/3c.jfif",     
+      "/Images/Bags/3d.jfif" ,      
+       "/Images/Bags/3e.jfif" 
     ],
       boughtPastMonth: "2K+",
       delivery: "Wed, Jan 21",
@@ -199,13 +197,13 @@ useEffect(() => {
       oldPrice: 864997,
       rating: 4.3,
       reviews: "9,902",
-      image: "images/Bags/4.jfif", 
+      image: "/Images/Bags/4.jfif", 
         gallery: [
-      "images/Bags/4a.jfif",     
-      "images/Bags/4b.jfif",      
-      "images/Bags/4c.jfif",     
-      "images/Bags/4d.jfif" ,      
-       "images/Bags/4e.jfif" 
+      "/Images/Bags/4a.jfif",     
+      "/Images/Bags/4b.jfif",      
+      "/Images/Bags/4c.jfif",     
+      "/Images/Bags/4d.jfif" ,      
+       "/Images/Bags/4e.jfif" 
     ],
       boughtPastMonth: "87K+",
       delivery: "wede, feb 20",
@@ -220,13 +218,13 @@ useEffect(() => {
       oldPrice: 857597,
       rating: 4.8,
       reviews: "90,50",
-      image: "images/Bags/5.jfif", 
+      image: "/Images/Bags/5.jfif", 
         gallery: [
-      "images/Bags/5a.jfif",     
-      "images/Bags/5b.jfif",      
-      "images/Bags/5c.jfif",     
-      "images/Bags/5d.jfif" ,      
-       "images/Bags/5e.jfif" 
+      "/Images/Bags/5a.jfif",     
+      "/Images/Bags/5b.jfif",      
+      "/Images/Bags/5c.jfif",     
+      "/Images/Bags/5d.jfif" ,      
+       "/Images/Bags/5e.jfif" 
     ],
       boughtPastMonth: "870+",
       delivery: "Fri, novn 30",
@@ -241,13 +239,13 @@ useEffect(() => {
       oldPrice: 756200,
       rating: 4.1,
       reviews: "8,189",
-      image: "images/Bags/6.jfif", 
+      image: "/Images/Bags/6.jfif", 
     gallery: [
-      "images/Bags/6a.jfif",     
-      "images/Bags/6b.jfif",      
-      "images/Bags/6c.jfif",     
-      "images/Bags/6d.jfif" ,      
-       "images/Bags/6e.jfif" 
+      "/Images/Bags/6a.jfif",     
+      "/Images/Bags/6b.jfif",      
+      "/Images/Bags/6c.jfif",     
+      "/Images/Bags/6d.jfif" ,      
+       "/Images/Bags/6e.jfif" 
     ],
       boughtPastMonth: "76K+",
       delivery: "mon, jul 22",
@@ -262,13 +260,13 @@ useEffect(() => {
       oldPrice: 98997,
       rating: 3.3,
       reviews: "657,302",
-      image: "images/Bags/7.jfif", 
+      image: "/Images/Bags/7.jfif", 
         gallery: [
-      "images/Bags/7a.jfif",     
-      "images/Bags/7b.jfif",      
-      "images/Bags/7c.jfif",     
-      "images/Bags/7d.jfif" ,      
-       "images/Bags/7e.jfif" 
+      "/Images/Bags/7a.jfif",     
+      "/Images/Bags/7b.jfif",      
+      "/Images/Bags/7c.jfif",     
+      "/Images/Bags/7d.jfif" ,      
+       "/Images/Bags/7e.jfif" 
     ],
       boughtPastMonth: "35K+",
       delivery: "Thur, jun 10",
@@ -283,13 +281,13 @@ useEffect(() => {
       oldPrice: 97597,
       rating: 2.8,
       reviews: "765,0",
-      image: "images/Bags/8.jfif", 
+      image: "/Images/Bags/8.jfif", 
         gallery: [
-      "images/Bags/8a.jfif",     
-      "images/Bags/8b.jfif",      
-      "images/Bags/8c.jfif",     
-      "images/Bags/8d.jfif" ,      
-       "images/Bags/8e.jfif" 
+      "/Images/Bags/8a.jfif",     
+      "/Images/Bags/8b.jfif",      
+      "/Images/Bags/8c.jfif",     
+      "/Images/Bags/8d.jfif" ,      
+       "/Images/Bags/8e.jfif" 
     ],
       boughtPastMonth: "1290+",
       delivery: "Tues, Dec 12",
@@ -304,13 +302,13 @@ useEffect(() => {
       oldPrice: 4500,
       rating: 4.4,
       reviews: "8,099",
-      image: "images/Bags/9.jfif", 
+      image: "/Images/Bags/9.jfif", 
     gallery: [
-      "images/Bags/9a.jfif",     
-      "images/Bags/9b.jfif",      
-      "images/Bags/9c.jfif",     
-      "images/Bags/9d.jfif" ,      
-       "images/Bags/9e.jfif" 
+      "/Images/Bags/9a.jfif",     
+      "/Images/Bags/9b.jfif",      
+      "/Images/Bags/9c.jfif",     
+      "/Images/Bags/9d.jfif" ,      
+       "/Images/Bags/9e.jfif" 
     ],
       boughtPastMonth: "345K+",
       delivery: "Sat, April 16",
@@ -325,13 +323,13 @@ useEffect(() => {
       oldPrice: 997,
       rating: 4.0,
       reviews: "87,02",
-      image: "images/Bags/10.jfif", 
+      image: "/Images/Bags/10.jfif", 
         gallery: [
-      "images/Bags/10a.jfif",     
-      "images/Bags/10b.jfif",      
-      "images/Bags/10c.jfif",     
-      "images/Bags/10d.jfif" ,      
-       "images/Bags/10e.jfif" 
+      "/Images/Bags/10a.jfif",     
+      "/Images/Bags/10b.jfif",      
+      "/Images/Bags/10c.jfif",     
+      "/Images/Bags/10d.jfif" ,      
+       "/Images/Bags/10e.jfif" 
     ],
       boughtPastMonth: "39K+",
       delivery: "Tue, Dec 3",
@@ -346,13 +344,13 @@ useEffect(() => {
       oldPrice: 2437,
       rating: 4.9,
       reviews: "62,680",
-      image: "images/Bags/11.jfif", 
+      image: "/Images/Bags/11.jfif", 
         gallery: [
-      "images/Bags/11a.jfif",     
-      "images/Bags/11b.jfif",      
-      "images/Bags/11c.jfif",     
-      "images/Bags/11d.jfif" ,      
-       "images/Bags/11e.jfif" 
+      "/Images/Bags/11a.jfif",     
+      "/Images/Bags/11b.jfif",      
+      "/Images/Bags/11c.jfif",     
+      "/Images/Bags/11d.jfif" ,      
+       "/Images/Bags/11e.jfif" 
     ],
       boughtPastMonth: "800+",
       delivery: "Tues, May 5",
@@ -367,13 +365,13 @@ useEffect(() => {
       oldPrice: 4900,
       rating: 3.5,
       reviews: "546,09",
-      image: "images/Bags/12.jfif", 
+      image: "/Images/Bags/12.jfif", 
     gallery: [
-      "images/Bags/12a.jfif",     
-      "images/Bags/12b.jfif",      
-      "images/Bags/12c.jfif",     
-      "images/Bags/12d.jfif" ,      
-       "images/Bags/12e.jfif" 
+      "/Images/Bags/12a.jfif",     
+      "/Images/Bags/12b.jfif",      
+      "/Images/Bags/12c.jfif",     
+      "/Images/Bags/12d.jfif" ,      
+       "/Images/Bags/12e.jfif" 
     ],
       boughtPastMonth: "34K+",
       delivery: "Wed, March 31",
@@ -388,13 +386,13 @@ useEffect(() => {
       oldPrice: 23997,
       rating: 4.1,
       reviews: "12,872",
-      image: "images/Bags/13.jfif", 
+      image: "/Images/Bags/13.jfif", 
         gallery: [
-      "images/Bags/13a.jfif",     
-      "images/Bags/13b.jfif",      
-      "images/Bags/13c.jfif",     
-      "images/Bags/13d.jfif" ,      
-       "images/Bags/13e.jfif" 
+      "/Images/Bags/13a.jfif",     
+      "/Images/Bags/13b.jfif",      
+      "/Images/Bags/13c.jfif",     
+      "/Images/Bags/13d.jfif" ,      
+       "/Images/Bags/13e.jfif" 
     ],
       boughtPastMonth: "87K+",
       delivery: "Mon, August 14",
@@ -409,13 +407,13 @@ useEffect(() => {
       oldPrice: 37597,
       rating: 2.8,
       reviews: "91,250",
-      image: "images/Bags/14.jfif", 
+      image: "/Images/Bags/14.jfif", 
         gallery: [
-      "images/Bags/14a.jfif",     
-      "images/Bags/14b.jfif",      
-      "images/Bags/14c.jfif",     
-      "images/Bags/14d.jfif" ,      
-       "images/Bags/14e.jfif" 
+      "/Images/Bags/14a.jfif",     
+      "/Images/Bags/14b.jfif",      
+      "/Images/Bags/14c.jfif",     
+      "/Images/Bags/14d.jfif" ,      
+       "/Images/Bags/14e.jfif" 
     ],
       boughtPastMonth: "35+",
       delivery: "Fri, Oct 30",
@@ -430,13 +428,13 @@ useEffect(() => {
       oldPrice: 45000,
       rating: 4.5,
       reviews: "2,189",
-      image: "images/Bags/15.jfif", 
+      image: "/Images/Bags/15.jfif", 
     gallery: [
-      "images/Bags/15a.jfif",     
-      "images/Bags/15b.jfif",      
-      "images/Bags/15c.jfif",     
-      "images/Bags/15d.jfif" ,      
-       "images/Bags/15e.jfif" 
+      "/Images/Bags/15a.jfif",     
+      "/Images/Bags/15b.jfif",      
+      "/Images/Bags/15c.jfif",     
+      "/Images/Bags/15d.jfif" ,      
+       "/Images/Bags/15e.jfif" 
     ],
       boughtPastMonth: "69K+",
       delivery: "Thur, Nov 21",

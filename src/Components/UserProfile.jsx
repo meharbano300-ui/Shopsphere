@@ -187,7 +187,7 @@ const addToCart = (product) => {
       id: 1,
       name: "Premium Wireless Headphones",
       price: 299.99,
-      img: "images/Premium Wireless Headphones.jfif",
+      img: "/Images/Premium Wireless Headphones.jfif",
       addedDate: "2026-01-01",
       rating: 4.8,
       isPermanent: true
@@ -196,7 +196,7 @@ const addToCart = (product) => {
       id: 2,
       name: "Smart Fitness Watch",
       price: 199.99,
-      img: "images/Smart Fitness Watch.jfif",
+      img: "/Images/Smart Fitness Watch.jfif",
       addedDate: "2026-01-15",
       rating: 4.5,
       isPermanent: true
@@ -226,7 +226,7 @@ const addToCart = (product) => {
           name: "Wireless Bluetooth Headphones", 
           price: 89.99, 
           quantity: 1, 
-          image: "images/order1.jfif",
+          image: "/Images/order1.jfif",
           rating: 4,
           review: "Great sound quality!"
         },
@@ -235,7 +235,7 @@ const addToCart = (product) => {
           name: "GRANDS PARFUMS DE LUXE", 
           price: 249.99, 
           quantity: 1, 
-          image: "images/order2.jfif",
+          image: "/Images/order2.jfif",
           rating: 5,
           review: "Excellent features"
         }
@@ -256,7 +256,7 @@ const addToCart = (product) => {
           name: "Women's Flower Rhinestone", 
           price: 49.99, 
           quantity: 1, 
-          image: "images/order3.jfif",
+          image: "/Images/order3.jfif",
           rating: 0,
           review: ""
         }
@@ -277,7 +277,7 @@ const addToCart = (product) => {
           name: "Women's Flower Rhinestone", 
           price: 49.99, 
           quantity: 1, 
-          image: "images/order4.jfif",
+          image: "/Images/order4.jfif",
           rating: 0,
           review: ""
         }
@@ -329,26 +329,26 @@ const addToCart = (product) => {
 
   // Popular Products
   const popularProducts = [
-    { id: 1, name: "iPhone 15 Pro", price: 999, image: "images/popular1.jfif", rating: 4.8 },
-    { id: 2, name: "Sony WH-1000XM5", price: 349, image: "images/popular2.jfif", rating: 4.7 },
-    { id: 3, name: "MacBook Air M2", price: 1199, image: "images/popular3.jfif", rating: 4.9 },
-    { id: 4, name: "Nike Air Max", price: 129, image: "images/popular4.jfif", rating: 4.5 },
-    { id: 5, name: "Samsung 4K TV", price: 799, image: "images/popular5.jfif", rating: 4.6 },
-    { id: 6, name: "Dyson Vacuum", price: 449, image: "images/popular6.jfif", rating: 4.4 },
-    { id: 7, name: "Canon EOS R5", price: 3899, image: "images/popular7.jfif", rating: 4.8 },
-    { id: 8, name: "Apple Watch Ultra", price: 799, image: "images/popular8.jfif", rating: 4.7 }
+    { id: 1, name: "iPhone 15 Pro", price: 999, image: "/Images/popular1.jfif", rating: 4.8 },
+    { id: 2, name: "Sony WH-1000XM5", price: 349, image: "/Images/popular2.jfif", rating: 4.7 },
+    { id: 3, name: "MacBook Air M2", price: 1199, image: "/Images/popular3.jfif", rating: 4.9 },
+    { id: 4, name: "Nike Air Max", price: 129, image: "/Images/popular4.jfif", rating: 4.5 },
+    { id: 5, name: "Samsung 4K TV", price: 799, image: "/Images/popular5.jfif", rating: 4.6 },
+    { id: 6, name: "Dyson Vacuum", price: 449, image: "/Images/popular6.jfif", rating: 4.4 },
+    { id: 7, name: "Canon EOS R5", price: 3899, image: "/Images/popular7.jfif", rating: 4.8 },
+    { id: 8, name: "Apple Watch Ultra", price: 799, image: "/Images/popular8.jfif", rating: 4.7 }
   ];
 
   // More products for wishlist section
   const moreProducts = [
-    { id: 9, name: "PlayStation 5", price: 499, image: "images/wishlist1.jfif", rating: 4.9 },
-    { id: 10, name: "Ladies Accessories", price: 299, image: "images/5.jfif", rating: 4.6 },
-    { id: 11, name: "DJI Drone", price: 899, image: "images/wishlist3.jfif", rating: 4.7 },
-    { id: 12, name: "Kindle Paperwhite", price: 139, image: "images/wishlist4.jfif", rating: 4.4 },
-    { id: 13, name: "Elegant Ladies Bag ", price: 499, image: "images/bag2.jfif", rating: 4.9 },
-    { id: 14, name: "Bose Speakers", price: 299, image: "images/wishlist2.jfif", rating: 4.6 },
-    { id: 15, name: "Glasses For Youth", price: 899, image: "images/3.jfif", rating: 4.7 },
-    { id: 16, name: "Smartphone Xiaomi 14 Pro ", price: 139, image: "images/7a.jfif", rating: 4.4 }
+    { id: 9, name: "PlayStation 5", price: 499, image: "/Images/wishlist1.jfif", rating: 4.9 },
+    { id: 10, name: "Ladies Accessories", price: 299, image: "/Images/5.jfif", rating: 4.6 },
+    { id: 11, name: "DJI Drone", price: 899, image: "/Images/wishlist3.jfif", rating: 4.7 },
+    { id: 12, name: "Kindle Paperwhite", price: 139, image: "/Images/wishlist4.jfif", rating: 4.4 },
+    { id: 13, name: "Elegant Ladies Bag ", price: 499, image: "/Images/bag2.jfif", rating: 4.9 },
+    { id: 14, name: "Bose Speakers", price: 299, image: "/Images/wishlist2.jfif", rating: 4.6 },
+    { id: 15, name: "Glasses For Youth", price: 899, image: "/Images/3.jfif", rating: 4.7 },
+    { id: 16, name: "Smartphone Xiaomi 14 Pro ", price: 139, image: "/Images/7a.jfif", rating: 4.4 }
   ];
 
   // Auto messages for chat
@@ -971,7 +971,7 @@ const deleteAddress = (id) => {
           className="relative z-10"
         >
           <img 
-            src='images/lip4.jfif'
+            src='/Images/lip4.jfif'
             alt="Avatar" 
             className="w-24 h-24 rounded-[2rem] object-cover border-4 border-[#131921] ring-2 ring-[#febd69] shadow-2xl transition-all" 
           />
@@ -980,7 +980,7 @@ const deleteAddress = (id) => {
           type="file" 
           ref={fileInputRef} 
           onChange={handleImageUpload} 
-          accept="image/*" 
+          accept="/Image/*" 
           className="hidden" 
         />
         <motion.button 

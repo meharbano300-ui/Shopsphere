@@ -30,7 +30,7 @@ const allProducts = [
     subcategory: "Audio",
     rating: 4, 
     reviews: 1240,
-    image: "images/categories/e1.jfif",
+    image: "/Images/categories/e1.jfif",
     delivery: "Tomorrow",
     stock: "In Stock",
     brand: "Crystala"
@@ -45,7 +45,7 @@ const allProducts = [
     subcategory: "Wearables",
     rating: 4.5, 
     reviews: 6240,
-    image: "images/categories/e2.jfif",
+    image: "/Images/categories/e2.jfif",
     delivery: "Only 2 Days ",
     stock: "In Stock",
     brand: "Wearables"
@@ -60,7 +60,7 @@ const allProducts = [
     subcategory: "Gaming",
     rating: 4.7, 
     reviews: 98840,
-    image: "images/categories/s27.jfif",
+    image: "/Images/categories/s27.jfif",
     delivery: "Only 4 Days ",
     stock: "In Stock",
     brand: "Gaming"
@@ -75,7 +75,7 @@ const allProducts = [
     subcategory: "Computers",
     rating: 4.1, 
     reviews: 2440,
-    image: "images/categories/s28.jfif",
+    image: "/Images/categories/s28.jfif",
     delivery: "Only 2 Days ",
     stock: "In Stock",
     brand: "Computers"
@@ -90,7 +90,7 @@ const allProducts = [
     subcategory: "Ventilation",
     rating: 5, 
     reviews: 3492,
-    image: "images/categories/s2.jfif",
+    image: "/Images/categories/s2.jfif",
     delivery: "5 days",
     stock: "Only 3 left",
     brand: "Ventilation"
@@ -105,7 +105,7 @@ const allProducts = [
     subcategory: "Washing Machine",
     rating: 5, 
     reviews: 9092,
-    image: "images/categories/s3.jfif",
+    image: "/Images/categories/s3.jfif",
     delivery: "Only 7 Days",
     stock: "Only 3 left",
     brand: "Washing Machine"
@@ -120,7 +120,7 @@ const allProducts = [
     subcategory: "Cookware",
     rating: 5, 
     reviews: 9092,
-    image: "images/categories/s29.jfif",
+    image: "/Images/categories/s29.jfif",
     delivery: "1 days",
     stock: "Tomorrow",
     brand: "Cookware"
@@ -135,7 +135,7 @@ const allProducts = [
     subcategory: "Cookware",
     rating: 5, 
     reviews: 25992,
-    image: "images/categories/s1.jfif",
+    image: "/Images/categories/s1.jfif",
     delivery: "Only 2 Days",
     stock: "Only 3 left",
     brand: "KitchenPro"
@@ -150,7 +150,7 @@ const allProducts = [
     subcategory: "Utensils",
     rating: 4.4, 
     reviews: 5767,
-    image: "images/categories/s4.jfif",
+    image: "/Images/categories/s4.jfif",
     delivery: "Only 3 Days",
     stock: "In Stock",
     brand: "AMZCHEF"
@@ -165,7 +165,7 @@ const allProducts = [
     subcategory: "Storage",
     rating: 4.3, 
     reviews: 567,
-    image: "images/categories/s30.jfif",
+    image: "/Images/categories/s30.jfif",
     delivery: "2 days",
     stock: "In Stock",
     brand: "AMZCHEF"
@@ -180,7 +180,7 @@ const allProducts = [
     subcategory: "Bags",
     rating: 3.9, 
     reviews: 3842,
-    image: "images/categories/s5.jfif",
+    image: "/Images/categories/s5.jfif",
     delivery: "Only 4 Days",
     stock: "In Stock",
     brand: "PUREPLUS"
@@ -195,7 +195,7 @@ const allProducts = [
     subcategory: "Clothing",
     rating: 3.9, 
     reviews: 342,
-    image: "images/categories/s6.jfif",
+    image: "/Images/categories/s6.jfif",
     delivery: "Tomorrow",
     stock: "In Stock",
     brand: "PUREPLUS"
@@ -210,7 +210,7 @@ const allProducts = [
     subcategory: "Shoes",
     rating: 3, 
     reviews: 342,
-    image: "images/categories/s31.jfif",
+    image: "/Images/categories/s31.jfif",
     delivery: "Only 8 Days Left",
     stock: "In Stock",
     brand: "Shoes"
@@ -225,7 +225,7 @@ const allProducts = [
     subcategory: "Accessories",
     rating: 3.9, 
     reviews: 5542,
-    image: "images/categories/s32.jfif",
+    image: "/Images/categories/s32.jfif",
     delivery: "Only 8 Days Left",
     stock: "In Stock",
     brand: "Luxury"
@@ -240,7 +240,7 @@ const allProducts = [
     subcategory: "Makeup Tools",
     rating: 5, 
     reviews: 95834,
-    image: "images/categories/s7.jfif",
+    image: "/Images/categories/s7.jfif",
     delivery: "Only 3 Days",
     stock: "Only 5 left",
     brand: "Huda Beauty"
@@ -255,7 +255,7 @@ const allProducts = [
     subcategory: "Skincare",
     rating: 5, 
     reviews: 95834,
-    image: "images/categories/s8.jfif",
+    image: "/Images/categories/s8.jfif",
     delivery: "Only 2 Days",
     stock: "Only 8 left",
     brand: "Beauty & Skin Care"
@@ -270,7 +270,7 @@ const allProducts = [
     subcategory: "Fragrances",
     rating: 5, 
     reviews: 1234,
-    image: "images/categories/s9.jfif",
+    image: "/Images/categories/s9.jfif",
     delivery: "Only 5 Days",
     stock: "In Stock",
     brand: "J'adore Dior"
@@ -285,7 +285,7 @@ const allProducts = [
     subcategory: "Bedding",
     rating: 5, 
     reviews: 9467,
-    image: "images/categories/s10.jfif",
+    image: "/Images/categories/s10.jfif",
     delivery: "Tomorrow",
     stock: "In Stock",
     brand: "Duvet"
@@ -300,7 +300,7 @@ const allProducts = [
     subcategory: "Furniture",
     rating: 5, 
     reviews: 4367,
-    image: "images/categories/s11.jfif",
+    image: "/Images/categories/s11.jfif",
     delivery: "Only 2 Days",
     stock: "In Stock",
     brand: "Austin"
@@ -315,7 +315,7 @@ const allProducts = [
     subcategory: "Decor",
     rating: 5, 
     reviews: 8967,
-    image: "images/categories/s12.jfif",
+    image: "/Images/categories/s12.jfif",
     delivery: "Tomorrow",
     stock: "Only 2 Days",
     brand: "Crystal"
@@ -330,7 +330,7 @@ const allProducts = [
     subcategory: "Fitness",
     rating: 4, 
     reviews: 2890,
-    image: "images/categories/s13.jfif",
+    image: "/Images/categories/s13.jfif",
     delivery: "3 days",
     stock: "In Stock",
     brand: "Fitness"
@@ -345,7 +345,7 @@ const allProducts = [
     subcategory: "Outdoor",
     rating: 4.9, 
     reviews: 2890,
-    image: "images/categories/s14.jfif",
+    image: "/Images/categories/s14.jfif",
     delivery: "7 days",
     stock: "Only 7 Days",
     brand: "Fitness_Worth"
@@ -360,7 +360,7 @@ const allProducts = [
     subcategory: "Gym Gear",
     rating: 4, 
     reviews: 2890,
-    image: "images/categories/s15.jfif",
+    image: "/Images/categories/s15.jfif",
     delivery: "Only 4 days",
     stock: "In Stock",
     brand: "Fitness"
@@ -375,7 +375,7 @@ const allProducts = [
     subcategory: "Fiction",
     rating: 4.8, 
     reviews: 1567,
-    image: "images/categories/s16.jfif",
+    image: "/Images/categories/s16.jfif",
     delivery: "Tomorrow",
     stock: "Only 2 left",
     brand: "Ultimate"
@@ -390,7 +390,7 @@ const allProducts = [
     subcategory: "Self-Help",
     rating: 4, 
     reviews: 98687,
-    image: "images/categories/s17.jfif",
+    image: "/Images/categories/s17.jfif",
     delivery: "8 Days Left",
     stock: "Only 2 left",
     brand: "Darius Foroux,"
@@ -405,7 +405,7 @@ const allProducts = [
     subcategory: "Educational",
     rating: 4.5, 
     reviews: 1567,
-    image: "images/categories/s18.jfif",
+    image: "/Images/categories/s18.jfif",
     delivery: "2 Days",
     stock: "Only 2 left",
     brand: "Education"
@@ -420,7 +420,7 @@ const allProducts = [
     subcategory: "Action Figures",
     rating: 4.1, 
     reviews: 3456,
-    image: "images/categories/s19.jfif",
+    image: "/Images/categories/s19.jfif",
     delivery: "Only 5 Days Left",
     stock: "In Stock",
     brand: "Action"
@@ -435,7 +435,7 @@ const allProducts = [
     subcategory: "Puzzles",
     rating: 4.2, 
     reviews: 3456,
-    image: "images/categories/s20.jfif",
+    image: "/Images/categories/s20.jfif",
     delivery: "Tomorrow",
     stock: "In Stock",
     brand: "Puzzles"
@@ -450,7 +450,7 @@ const allProducts = [
     subcategory: "Board Games",
     rating: 4, 
     reviews: 3456,
-    image: "images/categories/s21.jfif",
+    image: "/Images/categories/s21.jfif",
     delivery: "Only 5 Days Left",
     stock: "In Stock",
     brand: "Board Games"
@@ -465,7 +465,7 @@ const allProducts = [
     subcategory: "Car Care",
     rating: 5, 
     reviews: 2345,
-    image: "images/categories/s22.jfif",
+    image: "/Images/categories/s22.jfif",
     delivery: "Only 23 days",
     stock: "In Stock",
     brand: "Craftsmanship"
@@ -480,7 +480,7 @@ const allProducts = [
     subcategory: "Accessories",
     rating: 5, 
     reviews: 2345,
-    image: "images/categories/s23.jfif",
+    image: "/Images/categories/s23.jfif",
     delivery: "Only 7 days",
     stock: "In Stock",
     brand: "Rhinestone"
@@ -495,7 +495,7 @@ const allProducts = [
     subcategory: "Tools",
     rating: 5, 
     reviews: 2345,
-    image: "images/categories/s24.jfif",
+    image: "/Images/categories/s24.jfif",
     delivery: "Only 7 days",
     stock: "In Stock",
     brand: "Parácar"
@@ -510,7 +510,7 @@ const allProducts = [
     subcategory: "Pet Food",
     rating: 5, 
     reviews: 789,
-    image: "images/categories/s25.jfif",
+    image: "/Images/categories/s25.jfif",
     delivery: "4 days ",
     stock: "Only 1 left",
     brand: "Ceramic"
@@ -525,7 +525,7 @@ const allProducts = [
     subcategory: "Grooming",
     rating: 5, 
     reviews: 789,
-    image: "images/categories/s26.jfif",
+    image: "/Images/categories/s26.jfif",
     delivery: "Only 4 days Left",
     stock: "Only 9 left",
     brand: "Ceramic"
@@ -540,7 +540,7 @@ const allProducts = [
     subcategory: "Mobile",
     rating: 4.5, 
     reviews: 6240,
-    image: "images/categories/s33.jfif",
+    image: "/Images/categories/s33.jfif",
     delivery: "Only 5 today ",
     stock: "In Stock",
     brand: "Mobile"
@@ -555,7 +555,7 @@ const allProducts = [
     subcategory: "AC",
     rating: 5, 
     reviews: 9092,
-    image: "images/categories/s34.jfif",
+    image: "/Images/categories/s34.jfif",
     delivery: "1 days",
     stock: "Only 2 Days Left",
     brand: "YOPOWER"
@@ -570,7 +570,7 @@ const allProducts = [
     subcategory: "Small Appliances",
     rating: 5, 
     reviews: 2592,
-    image: "images/categories/s35.jfif",
+    image: "/Images/categories/s35.jfif",
     delivery: "Today",
     stock: "Only 3 left",
     brand: "Small Appliances"
@@ -585,7 +585,7 @@ const allProducts = [
     subcategory: "Hair Care",
     rating: 5, 
     reviews: 1234,
-    image: "images/categories/s36.jfif",
+    image: "/Images/categories/s36.jfif",
     delivery: "3 Todays",
     stock: "In Stock",
     brand: "Hair Care"
@@ -600,7 +600,7 @@ const allProducts = [
     subcategory: "Lighting",
     rating: 5, 
     reviews: 8967,
-    image: "images/categories/s37.jfif",
+    image: "/Images/categories/s37.jfif",
     delivery: "Tomorrow",
     stock: "Only 2 Days",
     brand: "Lighting"
@@ -615,7 +615,7 @@ const allProducts = [
     subcategory: "Team Sports",
     rating: 4, 
     reviews: 2890,
-    image: "images/categories/s38.jfif",
+    image: "/Images/categories/s38.jfif",
     delivery: "Only 7 days",
     stock: "In Stock",
     brand: "Team Sports"
@@ -630,7 +630,7 @@ const allProducts = [
     subcategory: "Children",
     rating: 4.5, 
     reviews: 1567,
-    image: "images/categories/s39.jfif",
+    image: "/Images/categories/s39.jfif",
     delivery: "2 Days",
     stock: "Only 2 left",
     brand: "Children Books"
@@ -645,7 +645,7 @@ const allProducts = [
     subcategory: "Audio",
     rating: 4, 
     reviews: 1240,
-    image: "images/categories/s41.jfif",
+    image: "/Images/categories/s41.jfif",
     delivery: "Tomorrow",
     stock: "In Stock",
     brand: "Audio"
@@ -660,7 +660,7 @@ const allProducts = [
     subcategory: "Wearables",
     rating: 4, 
     reviews: 1240,
-    image: "images/categories/s40.jfif",
+    image: "/Images/categories/s40.jfif",
     delivery: "Tomorrow",
     stock: "In Stock",
     brand: "Wearables"
@@ -675,7 +675,22 @@ const allProducts = [
     subcategory: "Cookware",
     rating: 5, 
     reviews: 9092,
-    image: "images/categories/s42.jfif",
+    image: "/Images/categories/s42.jfif",
+    delivery: "Only 7 Days",
+    stock: "Only 3 left",
+    brand: "Appliances"
+  },
+   { 
+    id: 45, 
+    name: "Electronics Appliances For Home", 
+    price: "8,903", 
+    oldPrice: "9,992", 
+    discount: "20%", 
+    category: "Appliances", 
+    subcategory: "Ventilation",
+    rating: 5, 
+    reviews: 9092,
+    image: "/Images/categories/e2.jfif",
     delivery: "Only 7 Days",
     stock: "Only 3 left",
     brand: "Appliances"

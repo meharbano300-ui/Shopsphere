@@ -889,16 +889,16 @@ const updateQuantity = (index, delta) => {
           <div className="grid grid-cols-4 gap-3 px-2  hover:grayscale-0 hover:opacity-100 transition-all duration-500">
             {/* 4 Banking images placeholders as requested */}
             <div className="h-8  border border-white flex items-center justify-center p-1">
-              <img src="images/Icons/Visa_logo.svg" alt="Visa" className="h-full" />
+              <img src="/Images/Icons/Visa_logo.svg" alt="Visa" className="h-full" />
             </div>
             <div className="h-8 border border-white flex items-center justify-center p-1">
-              <img src="images/Icons/Mastercard-logo.svg" alt="Mastercard" className="h-full" />
+              <img src="/Images/Icons/Mastercard-logo.svg" alt="Mastercard" className="h-full" />
             </div>
             <div className="h-8  border border-white flex items-center justify-center p-1">
-              <img src="images/Icons/PayPal.svg" alt="Paypal" className="h-full" />
+              <img src="/Images/Icons/PayPal.svg" alt="Paypal" className="h-full" />
             </div>
             <div className="h-8  border border-white flex items-center justify-center p-1">
-              <img src="images/Icons/strip.svg" alt="Stripe" className="h-full" />
+              <img src="/Images/Icons/strip.svg" alt="Stripe" className="h-full" />
             </div>
           </div>
         </div>

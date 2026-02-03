@@ -38,17 +38,18 @@ const SignUp = ({ isOpen, onClose, onSwitchToLogin }) => {
         />
 
         {/* Main Modal Container */}
-        <motion.div 
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          exit="exit"
-          className="relative w-full max-w-[950px] h-[620px] rounded-[15px] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.6)] flex border border-white/30"
-          style={{
-            backgroundImage: `url('images/img.png')`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}
+        {/* Main Modal Container */}
+               <motion.div 
+                 variants={containerVariants}
+                 initial="hidden"
+                 animate="visible"
+                 exit="exit"
+                 className="relative w-full max-w-[950px] h-[620px] rounded-[15px] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.6)] flex border border-white/30"
+                 style={{
+                   backgroundImage: "url('/Images/imo.png')", 
+                   backgroundSize: 'cover',
+                   backgroundPosition: 'center',
+                 }}
         >
           {/* Close Button with Rotation Effect */}
           <motion.button 

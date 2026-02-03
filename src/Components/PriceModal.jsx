@@ -309,7 +309,7 @@ const PriceModal = () => {
                           <td className="py-3 bg-white/[0.02] border-y border-white/5">
                             <div className="flex items-center gap-3">
                               <div className="w-8 h-8 rounded-lg overflow-hidden border border-white/10 ring-2 ring-[#FF9F43]/10">
-                                <img src="images/Logos/duri.jfif" alt="user" className="w-full h-full object-cover" />
+                                <img src="/Images/Logos/duri.jfif" alt="user" className="w-full h-full object-cover" />
                               </div>
                               <span className="text-sm font-extrabold text-white">{order.customer}</span>
                             </div>

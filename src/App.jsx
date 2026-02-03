@@ -40,7 +40,7 @@ const LIVE_ASSETS = [
     id: 1,
     line1: "Inspiring",
     line2: "Audio Pro.",
-    img: "images/bg-remov.png", // Aapki pehli image
+    img: "/Images/bg-remov.png", // Aapki pehli image
     color: "text-blue-500",
     features: ["Spatial Audio", "80h Battery", "Pro-Tune"],
     tags: [
@@ -341,89 +341,89 @@ const itemVariants = {
   // Product data based on selected category and type
   const productsData = {
      Collection: [
-       { id: 1, name: 'Elegant Women Top', price: 119.99, oldPrice: 139.99, rating: 4.9, image: 'images/ten.jfif', type: 'Jacket' },
-        { id: 2, name: 'Summer Casual T-Shirt', price: 24.99, oldPrice: 34.99, rating: 4.3, image: 'images/features/Summer Polo1.jfif', type: 'T-Shirt' },
-        { id: 3, name: 'Women Casual Skirt', price: 55.00, oldPrice: 90.00, rating: 4.7, image: 'images/eigth.jfif', type: 'Skirt' },
-       { id: 4, name: 'Party Wear Dress', price: 35.00, oldPrice: 55.00, rating: 4.7, image: 'images/nine.jfif', type: 'Skirt' },
-       { id: 5, name: 'Classic Elegant Shirt', price: 45.50, oldPrice: 59.99, rating: 4.5, image: 'images/features/4.jfif', type: 'Shirt' },
-      { id: 6, name: 'Winter Wool Sweater', price: 65.00, oldPrice: 85.00, rating: 4.9, image: 'images/three.jfif', type: 'Sweater' },
-      { id: 7, name: 'Elegant Floral Dress', price: 89.99, oldPrice: 129.99, rating: 4.8, image: 'images/download (12).jfif', type: 'Dress' },
-      { id: 8, name: 'Elegant Ladies Dress ', price: 75.00, oldPrice: 95.00, rating: 4.7, image: 'images/features/5.jfif', type: 'Shirt' },
-       { id: 9, name: 'Leather Jacket', price: 129.99, oldPrice: 169.99, rating: 4.9, image: 'images/five.jfif', type: 'Jacket' },
-         { id: 10, name: 'Elegant Evening Skirt', price: 75.00, oldPrice: 95.00, rating: 4.7, image: 'images/six.jfif', type: 'Skirt' },
-       { id: 11, name: 'Designer Jeans', price: 79.99, oldPrice: 99.99, rating: 4.7, image: 'images/seven.png', type: 'Jeans' },
-      { id: 12, name: 'Men Prince Coat', price: 55.00, oldPrice: 80.00, rating: 4.7, image: 'images/eleven.jpg', type: 'Skirt' },
+       { id: 1, name: 'Elegant Women Top', price: 119.99, oldPrice: 139.99, rating: 4.9, image: '/Images/ten.jfif', type: 'Jacket' },
+        { id: 2, name: 'Summer Casual T-Shirt', price: 24.99, oldPrice: 34.99, rating: 4.3, image: '/Images/features/Summer Polo1.jfif', type: 'T-Shirt' },
+        { id: 3, name: 'Women Casual Skirt', price: 55.00, oldPrice: 90.00, rating: 4.7, image: '/Images/eigth.jfif', type: 'Skirt' },
+       { id: 4, name: 'Party Wear Dress', price: 35.00, oldPrice: 55.00, rating: 4.7, image: '/Images/nine.jfif', type: 'Skirt' },
+       { id: 5, name: 'Classic Elegant Shirt', price: 45.50, oldPrice: 59.99, rating: 4.5, image: '/Images/features/4.jfif', type: 'Shirt' },
+      { id: 6, name: 'Winter Wool Sweater', price: 65.00, oldPrice: 85.00, rating: 4.9, image: '/Images/three.jfif', type: 'Sweater' },
+      { id: 7, name: 'Elegant Floral Dress', price: 89.99, oldPrice: 129.99, rating: 4.8, image: '/Images/download (12).jfif', type: 'Dress' },
+      { id: 8, name: 'Elegant Ladies Dress ', price: 75.00, oldPrice: 95.00, rating: 4.7, image: '/Images/features/5.jfif', type: 'Shirt' },
+       { id: 9, name: 'Leather Jacket', price: 129.99, oldPrice: 169.99, rating: 4.9, image: '/Images/five.jfif', type: 'Jacket' },
+         { id: 10, name: 'Elegant Evening Skirt', price: 75.00, oldPrice: 95.00, rating: 4.7, image: '/Images/six.jfif', type: 'Skirt' },
+       { id: 11, name: 'Designer Jeans', price: 79.99, oldPrice: 99.99, rating: 4.7, image: '/Images/q.jfif', type: 'Jeans' },
+      { id: 12, name: 'Men Prince Coat', price: 55.00, oldPrice: 80.00, rating: 4.7, image: '/Images/eleven.jpg', type: 'Skirt' },
       
     ],
     Women: [
-      { id: 13, name: 'Elegant women Dress', price: 89.99, oldPrice: 129.99, rating: 4.8, image: 'images/features/nine.jfif', type: 'Dress' },
-      { id: 14, name: 'Elegant Dress', price: 89.99, oldPrice: 129.99, rating: 4.8, image: 'images/features/o.png', type: 'Dress' },
-      { id: 15, name: 'Classic Shirt', price: 45.50, oldPrice: 59.99, rating: 4.5, image: 'images/features/women-shirt-1.jfif', type: 'Shirt' },
-      { id: 16, name: 'women wearing Shirt', price: 45.50, oldPrice: 59.99, rating: 4.5, image: 'images/features/women-shirt-2.jfif', type: 'Shirt' },
-      { id: 17, name: 'women classic Shirt', price: 45.50, oldPrice: 59.99, rating: 4.5, image: 'images/features/women-shirt-3.jfif', type: 'Shirt' },
-      { id: 18, name: 'Designer Jeans', price: 79.99, oldPrice: 99.99, rating: 4.7, image: 'images/features/women-jeans-1.jfif', type: 'Jeans' },
-      { id: 19, name: 'Designer Jeans', price: 79.99, oldPrice: 99.99, rating: 4.7, image: 'images/features/women-jeans-2.jfif', type: 'Jeans' },
-      { id: 20, name: 'Designer Jeans', price: 79.99, oldPrice: 99.99, rating: 4.7, image: 'images/features/q.jfif', type: 'Jeans' },
-      { id: 21, name: 'Summer Dress', price: 129.99, oldPrice: 169.99, rating: 4.9, image: 'images/features/women-summer-1.jfif', type: 'summer' },
-      { id: 22, name: 'Summer Collection', price: 65.00, oldPrice: 85.00, rating: 4.9, image: 'images/features/women-summer-2.jfif', type: 'Summer' },
-       { id: 23, name: 'Summer Dress', price: 129.99, oldPrice: 169.99, rating: 4.9, image: 'images/features/women-summer-4.jfif', type: 'summer' },
-      { id: 24, name: 'Casual T-Shirt', price: 24.99, oldPrice: 34.99, rating: 4.3, image: 'images/features/women-tshirt-1.jfif', type: 'T-Shirt' },
-      { id: 25, name: 'Casual T-Shirt', price: 24.99, oldPrice: 34.99, rating: 4.3, image: 'images/features/women-tshirt-2.jfif', type: 'T-Shirt' },
-      { id: 26, name: 'Casual T-Shirt', price: 24.99, oldPrice: 34.99, rating: 4.3, image: 'images/features/women-tshirt-3.jfif', type: 'T-Shirt' },
-      { id: 27, name: 'Casual T-Shirt', price: 24.99, oldPrice: 34.99, rating: 4.3, image: 'images/features/women-tshirt-4.jfif', type: 'T-Shirt' },
-      { id: 28, name: 'Casual T-Shirt', price: 24.99, oldPrice: 34.99, rating: 4.3, image: 'images/features/women-tshirt-5.jfif', type: 'T-Shirt' },
-       { id: 29, name: 'Formal Pants', price: 59.99, oldPrice: 79.99, rating: 4.6, image: 'images/features/two.jfif', type: 'Pant' },
-      { id: 30, name: 'Formal Pants', price: 59.99, oldPrice: 79.99, rating: 4.6, image: 'images/features/jeans.jfif', type: 'Pant' },
-      { id: 31, name: 'Formal Black Pants', price: 59.99, oldPrice: 79.99, rating: 4.6, image: 'images/features/pants.jfif', type: 'Pant' },
-      { id: 32, name: 'Formal Black Pants', price: 59.99, oldPrice: 79.99, rating: 4.6, image: 'images/features/women-winter-1.jfif', type: 'Winter' },
-      { id: 33, name: 'Formal Black Pants', price: 59.99, oldPrice: 79.99, rating: 4.6, image: 'images/features/women-winter-2.jfif', type: 'Winter' },
-      { id: 34, name: 'Leather Jacket', price: 129.99, oldPrice: 169.99, rating: 4.9, image: 'images/features/jacket.jfif', type: 'Jacket' },
-      { id: 35, name: 'Elegant Winter Sweater', price: 75.00, oldPrice: 95.00, rating: 4.7, image: 'images/features/sweater.jfif', type: 'Sweater' },
-      { id: 36, name: 'Elegant Ladies Skirt', price: 75.00, oldPrice: 95.00, rating: 4.7, image: 'images/features/skirt.jfif', type: 'Skirt' },
+      { id: 13, name: 'Elegant women Dress', price: 89.99, oldPrice: 129.99, rating: 4.8, image: '/Images/features/nine.jfif', type: 'Dress' },
+      { id: 14, name: 'Elegant Dress', price: 89.99, oldPrice: 129.99, rating: 4.8, image: '/Images/features/5.jfif', type: 'Dress' },
+      { id: 15, name: 'Classic Shirt', price: 45.50, oldPrice: 59.99, rating: 4.5, image: '/Images/features/women-shirt-1.jfif', type: 'Shirt' },
+      { id: 16, name: 'women wearing Shirt', price: 45.50, oldPrice: 59.99, rating: 4.5, image: '/Images/features/women-shirt-2.jfif', type: 'Shirt' },
+      { id: 17, name: 'women classic Shirt', price: 45.50, oldPrice: 59.99, rating: 4.5, image: '/Images/features/women-shirt-3.jfif', type: 'Shirt' },
+      { id: 18, name: 'Designer Jeans', price: 79.99, oldPrice: 99.99, rating: 4.7, image: '/Images/features/women-jeans-1.jfif', type: 'Jeans' },
+      { id: 19, name: 'Designer Jeans', price: 79.99, oldPrice: 99.99, rating: 4.7, image: '/Images/features/women-jeans-2.jfif', type: 'Jeans' },
+      { id: 20, name: 'Designer Jeans', price: 79.99, oldPrice: 99.99, rating: 4.7, image: '/Images/features/q.jfif', type: 'Jeans' },
+      { id: 21, name: 'Summer Dress', price: 129.99, oldPrice: 169.99, rating: 4.9, image: '/Images/features/women-summer-1.jfif', type: 'summer' },
+      { id: 22, name: 'Summer Collection', price: 65.00, oldPrice: 85.00, rating: 4.9, image: '/Images/features/women-summer-2.jfif', type: 'Summer' },
+       { id: 23, name: 'Summer Dress', price: 129.99, oldPrice: 169.99, rating: 4.9, image: '/Images/features/women-summer-4.jfif', type: 'summer' },
+      { id: 24, name: 'Casual T-Shirt', price: 24.99, oldPrice: 34.99, rating: 4.3, image: '/Images/features/women-tshirt-1.jfif', type: 'T-Shirt' },
+      { id: 25, name: 'Casual T-Shirt', price: 24.99, oldPrice: 34.99, rating: 4.3, image: '/Images/features/women-tshirt-2.jfif', type: 'T-Shirt' },
+      { id: 26, name: 'Casual T-Shirt', price: 24.99, oldPrice: 34.99, rating: 4.3, image: '/Images/features/women-tshirt-3.jfif', type: 'T-Shirt' },
+      { id: 27, name: 'Casual T-Shirt', price: 24.99, oldPrice: 34.99, rating: 4.3, image: '/Images/features/women-tshirt-4.jfif', type: 'T-Shirt' },
+      { id: 28, name: 'Casual T-Shirt', price: 24.99, oldPrice: 34.99, rating: 4.3, image: '/Images/features/women-tshirt-5.jfif', type: 'T-Shirt' },
+       { id: 29, name: 'Formal Pants', price: 59.99, oldPrice: 79.99, rating: 4.6, image: '/Images/features/two.jfif', type: 'Pant' },
+      { id: 30, name: 'Formal Pants', price: 59.99, oldPrice: 79.99, rating: 4.6, image: '/Images/features/jeans.jfif', type: 'Pant' },
+      { id: 31, name: 'Formal Black Pants', price: 59.99, oldPrice: 79.99, rating: 4.6, image: '/Images/features/pants.jfif', type: 'Pant' },
+      { id: 32, name: 'Formal Black Pants', price: 59.99, oldPrice: 79.99, rating: 4.6, image: '/Images/features/women-winter-1.jfif', type: 'Winter' },
+      { id: 33, name: 'Formal Black Pants', price: 59.99, oldPrice: 79.99, rating: 4.6, image: '/Images/features/women-winter-2.jfif', type: 'Winter' },
+      { id: 34, name: 'Leather Jacket', price: 129.99, oldPrice: 169.99, rating: 4.9, image: '/Images/features/jacket.jfif', type: 'Jacket' },
+      { id: 35, name: 'Elegant Winter Sweater', price: 75.00, oldPrice: 95.00, rating: 4.7, image: '/Images/features/sweater.jfif', type: 'Sweater' },
+      { id: 36, name: 'Elegant Ladies Skirt', price: 75.00, oldPrice: 95.00, rating: 4.7, image: '/Images/features/skirt.jfif', type: 'Skirt' },
       
     ],
     Men: [
-      { id: 37, name: 'Jents Jacket', price: 199.99, oldPrice: 249.99, rating: 4.9, image: 'images/features/men-jacket.jfif', type: 'Jacket' },
-      { id: 39, name: 'Casual Denim Jeans', price: 69.99, oldPrice: 89.99, rating: 4.6, image: 'images/features/men-jeans1.jfif', type: 'Jeans' },
-      { id: 40, name: 'Men T-Shirt Collection', price: 29.99, oldPrice: 39.99, rating: 4.4, image: 'images/features/men-tshirt.jfif', type: 'T-Shirt' },
-      { id: 41, name: 'Men T-Shirt Collection', price: 149.99, oldPrice: 199.99, rating: 4.9, image: 'images/features/men-tshirt1.jfif', type: 'T-Shirt' },
-      { id: 42, name: 'Formal Dress Shirt', price: 49.99, oldPrice: 64.99, rating: 4.7, image: 'images/features/men-shirt.jfif', type: 'Shirt' },
-      { id: 43, name: 'Winter Hoodie', price: 59.99, oldPrice: 79.99, rating: 4.8, image: 'images/features/men-sweater.jfif', type: 'Sweater' },
-      { id: 44, name: 'Casual Chino Pants', price: 54.99, oldPrice: 69.99, rating: 4.5, image: 'images/features/men-pant.jfif', type: 'Pant' },
-      { id: 45, name: 'Summer Shorts', price: 34.99, oldPrice: 44.99, rating: 4.3, image: 'images/features/shorts.jfif', type: 'Shorts' },
-      { id: 46, name: 'Jents Bomber Shirt', price: 149.99, oldPrice: 199.99, rating: 4.9, image: 'images/features/shirt.jfif', type: 'Shirt' },
-      { id: 47, name: 'Summer Shirts', price: 59.99, oldPrice: 79.99, rating: 4.8, image: 'images/features/men-shirt1.jfif', type: 'Shirt' },
-      { id: 48, name: 'Casual Winter Dress', price: 54.99, oldPrice: 69.99, rating: 4.5, image: 'images/features/men-winter.jfif', type: 'Winter' },
-      { id: 49, name: 'Men Winter Collection', price: 34.99, oldPrice: 44.99, rating: 4.3, image: 'images/features/men-winter1.jfif', type: 'Winter' },
+      { id: 37, name: 'Jents Jacket', price: 199.99, oldPrice: 249.99, rating: 4.9, image: '/Images/features/men-jacket.jfif', type: 'Jacket' },
+      { id: 39, name: 'Casual Denim Jeans', price: 69.99, oldPrice: 89.99, rating: 4.6, image: '/Images/features/men-jeans1.jfif', type: 'Jeans' },
+      { id: 40, name: 'Men T-Shirt Collection', price: 29.99, oldPrice: 39.99, rating: 4.4, image: '/Images/features/men-tshirt.jfif', type: 'T-Shirt' },
+      { id: 41, name: 'Men T-Shirt Collection', price: 149.99, oldPrice: 199.99, rating: 4.9, image: '/Images/features/men-tshirt1.jfif', type: 'T-Shirt' },
+      { id: 42, name: 'Formal Dress Shirt', price: 49.99, oldPrice: 64.99, rating: 4.7, image: '/Images/features/men-shirt.jfif', type: 'Shirt' },
+      { id: 43, name: 'Winter Hoodie', price: 59.99, oldPrice: 79.99, rating: 4.8, image: '/Images/features/men-sweater.jfif', type: 'Sweater' },
+      { id: 44, name: 'Casual Chino Pants', price: 54.99, oldPrice: 69.99, rating: 4.5, image: '/Images/features/men-pant.jfif', type: 'Pant' },
+      { id: 45, name: 'Summer Shorts', price: 34.99, oldPrice: 44.99, rating: 4.3, image: '/Images/features/shorts.jfif', type: 'Shorts' },
+      { id: 46, name: 'Jents Bomber Shirt', price: 149.99, oldPrice: 199.99, rating: 4.9, image: '/Images/features/shirt.jfif', type: 'Shirt' },
+      { id: 47, name: 'Summer Shirts', price: 59.99, oldPrice: 79.99, rating: 4.8, image: '/Images/features/men-shirt1.jfif', type: 'Shirt' },
+      { id: 48, name: 'Casual Winter Dress', price: 54.99, oldPrice: 69.99, rating: 4.5, image: '/Images/features/men-winter.jfif', type: 'Winter' },
+      { id: 49, name: 'Men Winter Collection', price: 34.99, oldPrice: 44.99, rating: 4.3, image: '/Images/features/men-winter1.jfif', type: 'Winter' },
     
     ],
     Child: [
-      { id: 50, name: 'Kids Cotton T-Shirt', price: 19.99, oldPrice: 29.99, rating: 4.6, image: 'images/features/Kids Cotton T-Shirt.jfif', type: 'T-Shirt' },
-      { id: 51, name: 'Children`s Jeans', price: 34.99, oldPrice: 44.99, rating: 4.5, image: 'images/features/Children Jeans.jfif', type: 'Jeans' },
-      { id: 52, name: 'Winter Jacket for Kids', price: 49.99, oldPrice: 64.99, rating: 4.8, image: 'images/features/Winter Jacket for Kids.jfif', type: 'Jacket' },
-      { id: 53, name: 'School Uniform Shirt', price: 24.99, oldPrice: 34.99, rating: 4.4, image: 'images/features/School Uniform Shirt.jfif', type: 'Shirt' },
-      { id: 54, name: 'Kids Summer Dress', price: 29.99, oldPrice: 39.99, rating: 4.7, image: 'images/features/Kids Summer Dress.jfif', type: 'Dress' },
-      { id: 55, name: 'Children Pants', price: 27.99, oldPrice: 37.99, rating: 4.5, image: 'images/features/Children Pants.jfif', type: 'Pant' },
-      { id: 56, name: 'Kids Sweater', price: 32.99, oldPrice: 42.99, rating: 4.6, image: 'images/features/Kids Sweater.jfif', type: 'Sweater' },
-      { id: 57, name: 'Play Shorts', price: 21.99, oldPrice: 29.99, rating: 4.3, image: 'images/features/Play Shorts.jfif', type: 'Shorts' },
-      { id: 58, name: 'Kids Summer Dress', price: 29.99, oldPrice: 39.99, rating: 4.7, image: 'images/features/Kids Summer Dress1.jfif', type: 'Summer' },
-      { id: 59, name: 'Children Pants Collection', price: 27.99, oldPrice: 37.99, rating: 4.5, image: 'images/features/Children Pants1.jfif', type: 'Pant' },
-      { id: 60, name: 'Children Pants Collection', price: 32.99, oldPrice: 42.99, rating: 4.6, image: 'images/features/Children Pants2.jfif', type: 'Sweater' },
-      { id: 61, name: 'Child Winter', price: 21.99, oldPrice: 29.99, rating: 4.3, image: 'images/features/Child Winter.jfif', type: 'Winter' },
+      { id: 50, name: 'Kids Cotton T-Shirt', price: 19.99, oldPrice: 29.99, rating: 4.6, image: '/Images/features/Kids Cotton T-Shirt.jfif', type: 'T-Shirt' },
+      { id: 51, name: 'Children`s Jeans', price: 34.99, oldPrice: 44.99, rating: 4.5, image: '/Images/features/Children Jeans.jfif', type: 'Jeans' },
+      { id: 52, name: 'Winter Jacket for Kids', price: 49.99, oldPrice: 64.99, rating: 4.8, image: '/Images/features/Winter Jacket for Kids.jfif', type: 'Jacket' },
+      { id: 53, name: 'School Uniform Shirt', price: 24.99, oldPrice: 34.99, rating: 4.4, image: '/Images/features/School Uniform Shirt.jfif', type: 'Shirt' },
+      { id: 54, name: 'Kids Summer Dress', price: 29.99, oldPrice: 39.99, rating: 4.7, image: '/Images/features/Kids Summer Dress.jfif', type: 'Dress' },
+      { id: 55, name: 'Children Pants', price: 27.99, oldPrice: 37.99, rating: 4.5, image: '/Images/features/Children Pants.jfif', type: 'Pant' },
+      { id: 56, name: 'Kids Sweater', price: 32.99, oldPrice: 42.99, rating: 4.6, image: '/Images/features/Kids Sweater.jfif', type: 'Sweater' },
+      { id: 57, name: 'Play Shorts', price: 21.99, oldPrice: 29.99, rating: 4.3, image: '/Images/features/Play Shorts.jfif', type: 'Shorts' },
+      { id: 58, name: 'Kids Summer Dress', price: 29.99, oldPrice: 39.99, rating: 4.7, image: '/Images/features/Kids Summer Dress1.jfif', type: 'Summer' },
+      { id: 59, name: 'Children Pants Collection', price: 27.99, oldPrice: 37.99, rating: 4.5, image: '/Images/features/Children Pants1.jfif', type: 'Pant' },
+      { id: 60, name: 'Children Pants Collection', price: 32.99, oldPrice: 42.99, rating: 4.6, image: '/Images/features/Children Pants2.jfif', type: 'Sweater' },
+      { id: 61, name: 'Child Winter', price: 21.99, oldPrice: 29.99, rating: 4.3, image: '/Images/features/Child Winter.jfif', type: 'Winter' },
     ],
     Young: [
-      { id: 62, name: 'Elegant Burgundy Plaid Wool Maxi Dress', price: 44.99, oldPrice: 59.99, rating: 4.7, image: 'images/features/1.jfif', type: 'Summer' },
-      { id: 63, name: 'Big Sale Women Retro Plaid Long Dress', price: 69.99, oldPrice: 89.99, rating: 4.8, image: 'images/features/2.jfif', type: 'Dress' },
-      { id: 64, name: 'Graphic T-Shirt', price: 26.99, oldPrice: 36.99, rating: 4.5, image: 'images/features/Graphic T-Shirt.jfif', type: 'T-Shirt' },
-      { id: 65, name: 'Skinny Jeans', price: 59.99, oldPrice: 79.99, rating: 4.6, image: 'images/features/Skinny Jeans.jfif', type: 'Jeans' },
-      { id: 66, name: 'Casual Shirt', price: 39.99, oldPrice: 54.99, rating: 4.4, image: 'images/features/Casual Shirt.jfif', type: 'Shirt' },
-      { id: 67, name: 'Youth Winter Coat', price: 79.99, oldPrice: 99.99, rating: 4.8, image: 'images/features/Youth Winter Coat.jfif', type: 'Jacket' },
-      { id: 68, name: 'Training Pants', price: 34.99, oldPrice: 44.99, rating: 4.5, image: 'images/features/Training Pants.jfif', type: 'Pant' },
-      { id: 69, name: 'Summer Polo', price: 31.99, oldPrice: 41.99, rating: 4.4, image: 'images/features/Summer Polo.jfif', type: 'Shirt' },
-      { id: 70, name: 'Casual Shirt', price: 39.99, oldPrice: 54.99, rating: 4.4, image: 'images/features/Casual Shirt1.jfif', type: 'Shirt' },
-      { id: 71, name: 'Youth Winter Coat', price: 79.99, oldPrice: 99.99, rating: 4.8, image: 'images/features/Youth Winter Coat1.jfif', type: 'Jacket' },
-      { id: 72, name: 'Training Pants', price: 34.99, oldPrice: 44.99, rating: 4.5, image: 'images/features/Training Pants1.jfif', type: 'Pant' },
-      { id: 73, name: 'Summer Polo', price: 31.99, oldPrice: 41.99, rating: 4.4, image: 'images/features/Summer Polo1.jfif', type: 'Shirt' },
+      { id: 62, name: 'Elegant Burgundy Plaid Wool Maxi Dress', price: 44.99, oldPrice: 59.99, rating: 4.7, image: '/Images/features/1.jfif', type: 'Summer' },
+      { id: 63, name: 'Big Sale Women Retro Plaid Long Dress', price: 69.99, oldPrice: 89.99, rating: 4.8, image: '/Images/features/2.jfif', type: 'Dress' },
+      { id: 64, name: 'Graphic T-Shirt', price: 26.99, oldPrice: 36.99, rating: 4.5, image: '/Images/features/Graphic T-Shirt.jfif', type: 'T-Shirt' },
+      { id: 65, name: 'Skinny Jeans', price: 59.99, oldPrice: 79.99, rating: 4.6, image: '/Images/features/Skinny Jeans.jfif', type: 'Jeans' },
+      { id: 66, name: 'Casual Shirt', price: 39.99, oldPrice: 54.99, rating: 4.4, image: '/Images/features/Casual Shirt.jfif', type: 'Shirt' },
+      { id: 67, name: 'Youth Winter Coat', price: 79.99, oldPrice: 99.99, rating: 4.8, image: '/Images/features/Youth Winter Coat.jfif', type: 'Jacket' },
+      { id: 68, name: 'Training Pants', price: 34.99, oldPrice: 44.99, rating: 4.5, image: '/Images/features/Training Pants.jfif', type: 'Pant' },
+      { id: 69, name: 'Summer Polo', price: 31.99, oldPrice: 41.99, rating: 4.4, image: '/Images/features/Summer Polo.jfif', type: 'Shirt' },
+      { id: 70, name: 'Casual Shirt', price: 39.99, oldPrice: 54.99, rating: 4.4, image: '/Images/features/Casual Shirt1.jfif', type: 'Shirt' },
+      { id: 71, name: 'Youth Winter Coat', price: 79.99, oldPrice: 99.99, rating: 4.8, image: '/Images/features/Youth Winter Coat1.jfif', type: 'Jacket' },
+      { id: 72, name: 'Training Pants', price: 34.99, oldPrice: 44.99, rating: 4.5, image: '/Images/features/Training Pants1.jfif', type: 'Pant' },
+      { id: 73, name: 'Summer Polo', price: 31.99, oldPrice: 41.99, rating: 4.4, image: '/Images/features/Summer Polo1.jfif', type: 'Shirt' },
     
     ],
   };
@@ -509,7 +509,7 @@ return (
 <nav className="bg-gray-50 text-[#1A3021] py-1 flex items-center justify-between rounded-lg relative">
   {/* LEFT: Logo */}
   <div className="flex items-center gap-1 cursor-pointer group shrink-0">
-    <img src="Images/log.png" alt="Logo" className="w-12 h-10 md:w-15.5 md:h-13 object-cover rounded-[15px] transition-all duration-500 group-hover:rotate-3 group-hover:scale-105" />
+    <img src="/Images/log.png" alt="Logo" className="w-12 h-10 md:w-15.5 md:h-13 object-cover rounded-[15px] transition-all duration-500 group-hover:rotate-3 group-hover:scale-105" />
     <span className="text-md md:text-[23px] font-extrabold tracking-tighter font-serif italic text-[#063f12] leading-tight">ShopSphere</span>
   </div>
   {/* CENTER: Navigation (Desktop Only) */}
@@ -743,7 +743,7 @@ return (
             <div className="col-span-12 lg:col-span-4  ">
               <div className="bg-white rounded-[15px] p-5 shadow-sm max-w-[275px] ml-auto translate-y-7 lg:translate-x-17  shadow-[0px_20px_50px_rgba(0,0,0,0.1)]">
                 <div className="bg-[#bbe989] rounded-[15px] aspect-[4/3] flex items-center justify-center relative overflow-hidden mb-3">
-                  <img src="images/main_image.png" alt="Shoe" className="w-3/4 object-contain -rotate-3 drop-shadow-2xl transition-transform duration-900 hover:scale-150 cursor-pointer" />
+                  <img src="/Images/main_image.png" alt="Shoe" className="w-3/4 object-contain -rotate-3 drop-shadow-2xl transition-transform duration-900 hover:scale-150 cursor-pointer" />
                   </div>
                   <div className="flex justify-between items-end">
                    <div>
@@ -762,12 +762,12 @@ return (
                     <span>Product</span><span>Price</span>
                   </div>
                   {[
-                    {n: 'Classic Watch', p: '$120', img: 'images/img4.jfif'},
-                    {n: 'T-Shirt', p: '$8.0', img: 'images/w.jfif'},
-                    {n: 'Clothes', p: '$8.0', img: 'images/ten.jfif'},
-                    {n: 'Bag', p: '$12', img: 'images/ba.jfif'}, 
-                    {n: 'Summer Dress', p: '$45.0', img: 'images/women-summer-4.jfif'},
-                    {n: 'Slim Blazer', p: '$85.0', img: 'images/women-tshirt-8.jfif'},
+                    {n: 'Classic Watch', p: '$120', img: '/Images/img4.jfif'},
+                    {n: 'T-Shirt', p: '$8.0', img: '/Images/w.jfif'},
+                    {n: 'Clothes', p: '$8.0', img: '/Images/ten.jfif'},
+                    {n: 'Bag', p: '$12', img: '/Images/ba.jfif'}, 
+                    {n: 'Summer Dress', p: '$45.0', img: '/Images/women-summer-4.jfif'},
+                    {n: 'Slim Blazer', p: '$85.0', img: '/Images/women-tshirt-8.jfif'},
                   ].map((item, i) => (
                     <div key={i} className="flex justify-between items-center group/item cursor-pointer">
                       <div className="flex items-center gap-3">
@@ -785,7 +785,7 @@ return (
             {/* Modal girl: Bottom Row - adjusted Transforms to prevent extra bottom space */}
             <div className="col-span-12 lg:col-span-2 h-[310px] lg:-translate-y-33">
               <div className="rounded-l-0 rounded-r-[20px] overflow-hidden h-full shadow-sm">
-                <img src="images/girl.jfif" alt="Model" className="w-full h-full object-cover transition-transform duration-900 hover:scale-140 cursor-pointer" />
+                <img src="/Images/girl.jfif" alt="Model" className="w-full h-full object-cover transition-transform duration-900 hover:scale-140 cursor-pointer" />
               </div>
             </div>      
    {/** chart section start here */}         
@@ -862,7 +862,7 @@ return (
             <div className="col-span-12 lg:col-span-3 lg:-translate-y-44 lg:-ml-5 relative group">
               <div className="relative col-span-12 lg:col-span-3 lg:-translate-x-3 lg:-translate-y-6">
                 <div className="rounded-[20px] overflow-hidden h-[360px] relative border-9 border-white shadow-2xl transition-transform duration-300">
-                  <img src="Images/img2.jfif" alt="Working girl" className="w-full h-full object-cover rounded-[15px] transition-transform duration-900 hover:scale-120 cursor-pointer" />
+                  <img src="/Images/img2.jfif" alt="Working girl" className="w-full h-full object-cover rounded-[15px] transition-transform duration-900 hover:scale-120 cursor-pointer" />
                 </div>
               </div>
               <div className="absolute top-1/2 -translate-y- -right-41 w-45 sm:w-60 p-6 hidden lg:block bg-white rounded-xl shadow-xl border border-gray-100 z-10 transition-transform duration-300 group-hover:scale-105">
@@ -994,7 +994,7 @@ return (
  <div className="grid grid-cols-12 gap-7">
       {/* LEFT SIDE: Featured Magazine Card */}
       <div className="col-span-12 lg:col-span-4 relative group overflow-hidden rounded-[5px] shadow-lg h-[380px] lg:h-auto">
-        <img src="images/img1.jpg" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-120" alt="Main Feature" />
+        <img src="/Images/img1.jpg" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-120" alt="Main Feature" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#1A3021] via-transparent to-transparent opacity-90"></div>
         <div className="absolute bottom-8 left-8 right-8 text-white">
           <h3 className="text-2xl font-extrabold mb-2 leading-tight">Exclusive ShopSphere <br/>Accessories</h3>
@@ -1004,12 +1004,12 @@ return (
 {/* RIGHT SIDE: Compact Product Grid */}
 <div className="col-span-12 lg:col-span-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
   {[
-    { id: 1, name: "Accessories for Ladies", price: "4299", old: "5399", img: "images/img7.jfif", link: "/Product_Listing" },
-    { id: 2, name: "Luxury Perfume Bottle with Nova-Light", price: "6150", old: "8250", img: "images/Perfu.jfif", link: "/Product_Listing2" },
-    { id: 3, name: "Metro-Swift Sling Pouch", price: "6954", old: "8680", img: "images/img8.jfif", link: "/Product_Listing3" },
-    { id: 4, name: "Gen-Z Smartphone Categoriesx", price: "6679", old: "8999", img: "images/Mobii.jfif", link: "/Product_Listing4" },
-    { id: 5, name: "Premium Watch Series 7", price: "2210", old: "3650", img: "images/4cc.jpg", link: "/Product_Listing5" },
-    { id: 6, name: "Beautiful Makeup Tips", price: "8750", old: "9990", img: "images/lip6.jfif", link: "/Product_Listing6" },
+    { id: 1, name: "Accessories for Ladies", price: "4299", old: "5399", img: "/Images/img7.jfif", link: "/Product_Listing" },
+    { id: 2, name: "Luxury Perfume Bottle with Nova-Light", price: "6150", old: "8250", img: "/Images/perfu.jfif", link: "/Product_Listing2" },
+    { id: 3, name: "Metro-Swift Sling Pouch", price: "6954", old: "8680", img: "/Images/img8.jfif", link: "/Product_Listing3" },
+    { id: 4, name: "Gen-Z Smartphone Categoriesx", price: "6679", old: "8999", img: "/Images/mobii.jfif", link: "/Product_Listing4" },
+    { id: 5, name: "Premium Watch Series 7", price: "2210", old: "3650", img: "/Images/4cc.jpg", link: "/Product_Listing5" },
+    { id: 6, name: "Beautiful Makeup Tips", price: "8750", old: "9990", img: "/Images/lip6.jfif", link: "/Product_Listing6" },
   ].map((p) => (
     <div key={p.id} className="bg-white rounded-[5px] border border-gray-100 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 group flex flex-col relative overflow-hidden h-fit">
       <div className="relative aspect-[4/4.5] overflow-hidden bg-gray-50">
@@ -1115,11 +1115,11 @@ return (
               <div className={`relative w-16 h-16 rounded-full overflow-hidden border-2 mt-1 transition-all duration-500 ${selectedCategory === category.name ? 'border-emerald-700 scale-110 shadow-xl' : 'border-transparent grayscale group-hover:grayscale-0'}`}>
                 <img 
                   src={
-                    category.name.toLowerCase() === 'collection' ? 'images/img2.jfif' :
-                    category.name.toLowerCase() === 'men' ? 'images/men.jfif' :
-                    category.name.toLowerCase() === 'women' ? 'images/women.jfif' :
-                    category.name.toLowerCase() === 'child' ? 'images/child.jfif' :
-                    category.name.toLowerCase() === 'young' ? 'images/wom.jfif' :
+                    category.name.toLowerCase() === 'collection' ? '/Images/img2.jfif' :
+                    category.name.toLowerCase() === 'men' ? '/Images/men.jfif' :
+                    category.name.toLowerCase() === 'women' ? '/Images/women.jfif' :
+                    category.name.toLowerCase() === 'child' ? '/Images/child.jfif' :
+                    category.name.toLowerCase() === 'young' ? '/Images/wom.jfif' :
                     `https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=200` 
                   } 
                   alt={category.name} 
@@ -1233,7 +1233,7 @@ return (
 
 
 
-{/** shopsphere evolution yani comin soon section start here */}
+{/** shopsphere evolution yani coming soon section start here */}
 <div className="bg-[#ffffff] max-w-[1500px] mx-auto px-6 md:px-100 lg:px-19 py-9  px-4 md:px-20 flex flex-col items-center  overflow-x-hidden font-['Plus_Jakarta_Sans'] md:-translate-y-35 transform">
   {/* Header Section */}
 <div className="mb-8 md:mb-10 w-full max-w-[1500px] mx-auto text-center px-4">
@@ -1493,17 +1493,17 @@ return (
   <div className="relative z-10 flex justify-center items-center py-2 my-auto">
     <div className="absolute w-24 h-24 bg-emerald-500/5 rounded-full blur-2xl group-hover:scale-125 transition-transform duration-1000" />
      <img 
-      src="images/airpod.png" 
-      className="w-35 h-35 object-contain  ms-28 mt-3 transform drop-shadow-[0_15px_25px_rgba(0,0,0,0.08)] group-hover:scale-105 group-hover:-translate-y-2 transition-transform duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)]" 
+      src="/Images/airpod.png" 
+      className="w-35 h-35 object-contain  ms-28 md:-translate-y-2  transform drop-shadow-[0_15px_25px_rgba(0,0,0,0.08)] group-hover:scale-105 group-hover:-translate-y-2 transition-transform duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)]" 
       alt="X-Bud"
     />
   </div>
   <div>
-      <h3 className="font-serif italic text-[#1A2421]  md:-translate-x-3 md:-translate-y-18 transform text-xl leading-[1.3rem]">
+      <h3 className="font-serif italic text-[#1A2421]  md:-translate-x-3 md:-translate-y-25 transform text-xl leading-[1.3rem]">
         Aura<br/>
         <span className="text-emerald-800">Sound</span>
       </h3>
-      <p className="text-[9px] text-gray-400 font-bold md:-translate-x-3 md:-translate-y-17 uppercase tracking-[0.2em]  flex items-center gap-1">
+      <p className="text-[9px] text-gray-400 font-bold md:-translate-x-3 md:-translate-y-23 uppercase tracking-[0.2em]  flex items-center gap-1">
         <span className="w-3 h-[1px] bg-emerald-200" /> X-Bud Elite
       </p>
     </div>
@@ -1513,7 +1513,7 @@ return (
 
      {/* 4. Surface Audio - Immersive */}
       <div className="col-span-1 md:col-span-3 md:row-span-3 bg-white  relative overflow-hidden group cursor-pointer shadow-sm hover:shadow-2xl transition-all h-[250px] md:h-auto border border-gray-100">
-        <img src="images/3d.png" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[2s]" alt="Surface" />
+        <img src="/Images/3d.png" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[2s]" alt="Surface" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-80" />
         <div className="absolute bottom-6 left-6 text-white ">
           <span className="text-[9px] font-black uppercase tracking-widest text-emerald-500 block">Professional Grade</span>
@@ -1527,7 +1527,7 @@ return (
          <Heart className="w-4 h-4 text-rose-500 fill-rose-500" />
         </div>
         <div className="flex gap-1 justify-between ">
-          {["images/pod1.jfif", "images/bag2.jfif", "images/img5.jfif", "images/bag4.jfif", "images/img10.jfif"].map((img, i) => (
+          {["/Images/pod1.jfif", "/Images/bag2.jfif", "/Images/img5.jfif", "/Images/bag4.jfif", "/Images/img10.jfif"].map((img, i) => (
             <img key={i} src={img} className="w-11 h-9 rounded-xl object-cover hover:ring-2 ring-blue-500 transition-all cursor-pointer shadow-md" alt="item" />
           ))}
         </div>
@@ -1614,7 +1614,7 @@ return (
       {/* Soft Glow */}
       <div className="absolute inset-0 bg-indigo-100/50 blur-2xl rounded-full" />
       <img 
-        src="images/glass.png" 
+        src="/Images/glass.png" 
         className="w-28 h-28 object-contain z-10 group-hover:scale-110 group-hover:rotate-6 transition-all duration-700" 
         alt="Neural Engine" 
       />
@@ -1652,7 +1652,7 @@ return (
             whileInView={{ opacity: 1, scale: 1 }}
             className="relative z-10 w-[260px] h-[300px] md:w-[320px] md:h-[380px] rounded-t-full rounded-b-[180px] overflow-hidden shadow-xl border-4 border-white/20"
           >
-            <img src="images/shop3.jfif" 
+            <img src="/Images/shop3.jfif" 
               alt="ShopSphere Team" 
               className="w-full h-full object-cover"
             />
@@ -1977,7 +1977,7 @@ return (
     <div className="md:col-span-3 space-y-4">
       <div className="flex items-center gap-2">
         {/* Logo Icon Added */}
-        <img src="Images/log.png" className="w-10 h-10 md:w-14 md:h-16 object-cover rounded-[15px] transition-all duration-500 group-hover:rotate-3 group-hover:scale-105 " />
+        <img src="/Images/log.png" className="w-10 h-10 md:w-14 md:h-16 object-cover rounded-[15px] transition-all duration-500 group-hover:rotate-3 group-hover:scale-105 " />
         <span className="text-2xl font-black italic tracking-tighter text-emerald-50">ShopSphere</span>
       </div>
       <p className="text-emerald-100/50 text-xs leading-relaxed max-w-xs">

@@ -136,14 +136,14 @@ useEffect(() => {
       oldPrice: 41997,
       rating: 4.3,
       reviews: "4,302",
-      image: "images/Mobile/1.jfif", 
+      image: "/Images/Mobile/1.jfif", 
          // yaha par image gallery ki images ayain gee sari 
         gallery: [
-      "images/Mobile/1a.jfif",     
-      "images/Mobile/1b.jfif",      
-      "images/Mobile/1c.jfif",     
-      "images/Mobile/1d.jfif" ,      
-       "images/Mobile/1e.jfif" 
+      "/Images/Mobile/1a.jfif",     
+      "/Images/Mobile/1b.jfif",      
+      "/Images/Mobile/1c.jfif",     
+      "/Images/Mobile/1d.jfif" ,      
+       "/Images/Mobile/1e.jfif" 
     ],
       boughtPastMonth: "6K+",
       delivery: "Tue, Jan 20",
@@ -158,13 +158,13 @@ useEffect(() => {
       oldPrice: 397597,
       rating: 4.8,
       reviews: "1,250",
-      image: "images/Mobile/2.jfif", 
+      image: "/Images/Mobile/2.jfif", 
         gallery: [
-      "images/Mobile/2a.jfif",     
-      "images/Mobile/2b.jfif",      
-      "images/Mobile/2c.jfif",     
-      "images/Mobile/2d.jfif" ,      
-       "images/Mobile/2e.jfif" 
+      "/Images/Mobile/2a.jfif",     
+      "/Images/Mobile/2b.jfif",      
+      "/Images/Mobile/2c.jfif",     
+      "/Images/Mobile/2d.jfif" ,      
+       "/Images/Mobile/2e.jfif" 
     ],
       boughtPastMonth: "500k+",
       delivery: "Tue, Jan 20",
@@ -179,13 +179,13 @@ useEffect(() => {
       oldPrice: 45000,
       rating: 4.5,
       reviews: "2,189",
-      image: "images/Mobile/3.jfif", 
+      image: "/Images/Mobile/3.jfif", 
     gallery: [
-      "images/Mobile/3a.jfif",     
-      "images/Mobile/3b.jfif",      
-      "images/Mobile/3c.jfif",     
-      "images/Mobile/3d.jfif" ,      
-       "images/Mobile/3e.jfif" 
+      "/Images/Mobile/3a.jfif",     
+      "/Images/Mobile/3b.jfif",      
+      "/Images/Mobile/3c.jfif",     
+      "/Images/Mobile/3d.jfif" ,      
+       "/Images/Mobile/3e.jfif" 
     ],
       boughtPastMonth: "2K+",
       delivery: "Wed, Jan 21",
@@ -200,13 +200,13 @@ useEffect(() => {
       oldPrice: 864997,
       rating: 4.3,
       reviews: "9,902",
-      image: "images/Mobile/4.jfif", 
+      image: "/Images/Mobile/4.jfif", 
         gallery: [
-      "images/Mobile/4a.jfif",     
-      "images/Mobile/4b.jfif",      
-      "images/Mobile/4c.jfif",     
-      "images/Mobile/4d.jfif" ,      
-       "images/Mobile/4e.jfif" 
+      "/Images/Mobile/4a.jfif",     
+      "/Images/Mobile/4b.jfif",      
+      "/Images/Mobile/4c.jfif",     
+      "/Images/Mobile/4d.jfif" ,      
+       "/Images/Mobile/4e.jfif" 
     ],
       boughtPastMonth: "87K+",
       delivery: "wede, feb 20",
@@ -221,13 +221,13 @@ useEffect(() => {
       oldPrice: 857597,
       rating: 4.8,
       reviews: "90,50",
-      image: "images/Mobile/5.jfif", 
+      image: "/Images/Mobile/5.jfif", 
         gallery: [
-      "images/Mobile/5a.jfif",     
-      "images/Mobile/5b.jfif",      
-      "images/Mobile/5c.jfif",     
-      "images/Mobile/5d.jfif" ,      
-       "images/Mobile/5e.jfif" 
+      "/Images/Mobile/5a.jfif",     
+      "/Images/Mobile/5b.jfif",      
+      "/Images/Mobile/5c.jfif",     
+      "/Images/Mobile/5d.jfif" ,      
+       "/Images/Mobile/5e.jfif" 
     ],
       boughtPastMonth: "870+",
       delivery: "Fri, novn 30",
@@ -242,13 +242,13 @@ useEffect(() => {
       oldPrice: 756200,
       rating: 4.1,
       reviews: "8,189",
-      image: "images/Mobile/6.jfif", 
+      image: "/Images/Mobile/6.jfif", 
     gallery: [
-      "images/Mobile/6a.jfif",     
-      "images/Mobile/6b.jfif",      
-      "images/Mobile/6c.jfif",     
-      "images/Mobile/6d.jfif" ,      
-       "images/Mobile/6e.jfif" 
+      "/Images/Mobile/6a.jfif",     
+      "/Images/Mobile/6b.jfif",      
+      "/Images/Mobile/6c.jfif",     
+      "/Images/Mobile/6d.jfif" ,      
+       "/Images/Mobile/6e.jfif" 
     ],
       boughtPastMonth: "76K+",
       delivery: "mon, jul 22",
@@ -263,13 +263,13 @@ useEffect(() => {
       oldPrice: 98997,
       rating: 3.3,
       reviews: "657,302",
-      image: "images/Mobile/7.jpg", 
+      image: "/Images/Mobile/7.jpg", 
         gallery: [
-      "images/Mobile/7a.jfif",     
-      "images/Mobile/7b.jfif",      
-      "images/Mobile/7c.jfif",     
-      "images/Mobile/7d.jfif" ,      
-       "images/Mobile/7e.jfif" 
+      "/Images/Mobile/7a.jfif",     
+      "/Images/Mobile/7b.jfif",      
+      "/Images/Mobile/7c.jfif",     
+      "/Images/Mobile/7d.jfif" ,      
+       "/Images/Mobile/7e.jfif" 
     ],
       boughtPastMonth: "35K+",
       delivery: "Thur, jun 10",
@@ -284,13 +284,13 @@ useEffect(() => {
       oldPrice: 97597,
       rating: 2.8,
       reviews: "765,0",
-      image: "images/Mobile/8.jfif", 
+      image: "/Images/Mobile/8.jfif", 
         gallery: [
-      "images/Mobile/8a.jfif",     
-      "images/Mobile/8b.jfif",      
-      "images/Mobile/8c.jfif",     
-      "images/Mobile/8d.jfif" ,      
-       "images/Mobile/8e.jfif" 
+      "/Images/Mobile/8a.jfif",     
+      "/Images/Mobile/8b.jfif",      
+      "/Images/Mobile/8c.jfif",     
+      "/Images/Mobile/8d.jfif" ,      
+       "/Images/Mobile/8e.jfif" 
     ],
       boughtPastMonth: "1290+",
       delivery: "Tues, Dec 12",
@@ -305,13 +305,13 @@ useEffect(() => {
       oldPrice: 4500,
       rating: 4.4,
       reviews: "8,099",
-      image: "images/Mobile/9.jfif", 
+      image: "/Images/Mobile/9.jfif", 
     gallery: [
-      "images/Mobile/9a.jfif",     
-      "images/Mobile/9b.jfif",      
-      "images/Mobile/9c.jfif",     
-      "images/Mobile/9d.jfif" ,      
-       "images/Mobile/9e.jfif" 
+      "/Images/Mobile/9a.jfif",     
+      "/Images/Mobile/9b.jfif",      
+      "/Images/Mobile/9c.jfif",     
+      "/Images/Mobile/9d.jfif" ,      
+       "/Images/Mobile/9e.jfif" 
     ],
       boughtPastMonth: "345K+",
       delivery: "Sat, April 16",
@@ -326,13 +326,13 @@ useEffect(() => {
       oldPrice: 997,
       rating: 4.0,
       reviews: "87,02",
-      image: "images/Mobile/10.jfif", 
+      image: "/Images/Mobile/10.jfif", 
         gallery: [
-      "images/Mobile/10a.jfif",     
-      "images/Mobile/10b.jfif",      
-      "images/Mobile/10c.jfif",     
-      "images/Mobile/10d.jfif" ,      
-       "images/Mobile/10e.jfif" 
+      "/Images/Mobile/10a.jfif",     
+      "/Images/Mobile/10b.jfif",      
+      "/Images/Mobile/10c.jfif",     
+      "/Images/Mobile/10d.jfif" ,      
+       "/Images/Mobile/10e.jfif" 
     ],
       boughtPastMonth: "39K+",
       delivery: "Tue, Dec 3",
@@ -347,13 +347,13 @@ useEffect(() => {
       oldPrice: 2437,
       rating: 4.9,
       reviews: "62,680",
-      image: "images/Mobile/11.jfif", 
+      image: "/Images/Mobile/11.jfif", 
         gallery: [
-      "images/Mobile/11a.jfif",     
-      "images/Mobile/11b.jfif",      
-      "images/Mobile/11c.jfif",     
-      "images/Mobile/11d.jfif" ,      
-       "images/Mobile/11e.jfif" 
+      "/Images/Mobile/11a.jfif",     
+      "/Images/Mobile/11b.jfif",      
+      "/Images/Mobile/11c.jfif",     
+      "/Images/Mobile/11d.jfif" ,      
+       "/Images/Mobile/11e.jfif" 
     ],
       boughtPastMonth: "800+",
       delivery: "Tues, May 5",
@@ -368,13 +368,13 @@ useEffect(() => {
       oldPrice: 4900,
       rating: 3.5,
       reviews: "546,09",
-      image: "images/Mobile/12.jfif", 
+      image: "/Images/Mobile/12.jfif", 
     gallery: [
-      "images/Mobile/12a.jfif",     
-      "images/Mobile/12b.jfif",      
-      "images/Mobile/12c.jfif",     
-      "images/Mobile/12d.jfif" ,      
-       "images/Mobile/12e.jfif" 
+      "/Images/Mobile/12a.jfif",     
+      "/Images/Mobile/12b.jfif",      
+      "/Images/Mobile/12c.jfif",     
+      "/Images/Mobile/12d.jfif" ,      
+       "/Images/Mobile/12e.jfif" 
     ],
       boughtPastMonth: "34K+",
       delivery: "Wed, March 31",
@@ -389,13 +389,13 @@ useEffect(() => {
       oldPrice: 23997,
       rating: 4.1,
       reviews: "12,872",
-      image: "images/Mobile/13.jfif", 
+      image: "/Images/Mobile/13.jfif", 
         gallery: [
-      "images/Mobile/13a.jfif",     
-      "images/Mobile/13b.jfif",      
-      "images/Mobile/13c.jfif",     
-      "images/Mobile/13d.jfif" ,      
-       "images/Mobile/13e.jfif" 
+      "/Images/Mobile/13a.jfif",     
+      "/Images/Mobile/13b.jfif",      
+      "/Images/Mobile/13c.jfif",     
+      "/Images/Mobile/13d.jfif" ,      
+       "/Images/Mobile/13e.jfif" 
     ],
       boughtPastMonth: "87K+",
       delivery: "Mon, August 14",
@@ -410,13 +410,13 @@ useEffect(() => {
       oldPrice: 37597,
       rating: 2.8,
       reviews: "91,250",
-      image: "images/Mobile/14.jfif", 
+      image: "/Images/Mobile/14.jfif", 
         gallery: [
-      "images/Mobile/14a.jfif",     
-      "images/Mobile/14b.jfif",      
-      "images/Mobile/14c.jfif",     
-      "images/Mobile/14d.jfif" ,      
-       "images/Mobile/14e.jfif" 
+      "/Images/Mobile/14a.jfif",     
+      "/Images/Mobile/14b.jfif",      
+      "/Images/Mobile/14c.jfif",     
+      "/Images/Mobile/14d.jfif" ,      
+       "/Images/Mobile/14e.jfif" 
     ],
       boughtPastMonth: "35+",
       delivery: "Fri, Oct 30",
@@ -431,13 +431,13 @@ useEffect(() => {
       oldPrice: 45000,
       rating: 4.5,
       reviews: "2,189",
-      image: "images/Mobile/15.jfif", 
+      image: "/Images/Mobile/15.jfif", 
     gallery: [
-      "images/Mobile/15a.jfif",     
-      "images/Mobile/15b.jfif",      
-      "images/Mobile/15c.jfif",     
-      "images/Mobile/15d.jfif" ,      
-       "images/Mobile/15e.jfif" 
+      "/Images/Mobile/15a.jfif",     
+      "/Images/Mobile/15b.jfif",      
+      "/Images/Mobile/15c.jfif",     
+      "/Images/Mobile/15d.jfif" ,      
+       "/Images/Mobile/15e.jfif" 
     ],
       boughtPastMonth: "69K+",
       delivery: "Thur, Nov 21",

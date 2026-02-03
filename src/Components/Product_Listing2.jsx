@@ -47,7 +47,7 @@ const features = [
   { 
       title: 'Global Delivery', 
       sub: 'Next-gen logistics', 
-      icon: 'https://cdn-icons-png.flaticon.com/512/9466/9466304.png', // 3D Delivery
+      icon: 'https://cdn-icons-png.flaticon.com/512/9466/9466304.png', 
       accent: 'from-orange-500 to-orange-300',
       shadow: 'group-hover:shadow-orange-200/50'
     },
@@ -68,7 +68,6 @@ const features = [
   { 
     title: 'Pure Quality', 
     sub: 'Certified Excellence', 
-    // Minimalist Diamond/Premium icon
     icon: 'https://cdn-icons-png.flaticon.com/512/12108/12108157.png', 
     accent: 'from-blue-800 to-blue-600',
     shadow: 'group-hover:shadow-blue-200/50'
@@ -76,12 +75,10 @@ const features = [
   { 
     title: 'Fluid Returns', 
     sub: '30-Day Ecosystem', 
-    // Dynamic Exchange/Return icon
     icon: 'https://cdn-icons-png.flaticon.com/512/3502/3502154.png', 
     accent: 'from-orange-400 to-yellow-500',
     shadow: 'group-hover:shadow-orange-100/50'
   },
-
 ];
 //second last footer icons wala section end 
 
@@ -137,14 +134,14 @@ useEffect(() => {
       oldPrice: 41997,
       rating: 4.3,
       reviews: "4,302",
-      image: "images/Perfumes/1.jfif", 
+      image: "/Images/Perfumes/1.jfif", 
          // yaha par image gallery ki images ayain gee sari 
         gallery: [
-      "images/Perfumes/1a.jfif",     
-      "images/Perfumes/1b.jfif",      
-      "images/Perfumes/1c.jfif",     
-      "images/Perfumes/1d.jfif" ,      
-       "images/Perfumes/1e.jfif" 
+      "/Images/Perfumes/1a.jfif",     
+      "/Images/Perfumes/1b.jfif",      
+      "/Images/Perfumes/1c.jfif",     
+      "/Images/Perfumes/1d.jfif" ,      
+       "/Images/Perfumes/1e.jfif" 
     ],
       boughtPastMonth: "6K+",
       delivery: "Tue, Jan 20",
@@ -159,13 +156,13 @@ useEffect(() => {
       oldPrice: 397597,
       rating: 4.8,
       reviews: "1,250",
-      image: "images/Perfumes/2.jfif", 
+      image: "/Images/Perfumes/2.jfif", 
         gallery: [
-      "images/Perfumes/2a.jfif",     
-      "images/Perfumes/2b.jfif",      
-      "images/Perfumes/2c.jfif",     
-      "images/Perfumes/2d.jfif" ,      
-       "images/Perfumes/2e.jfif" 
+      "/Images/Perfumes/2a.jfif",     
+      "/Images/Perfumes/2b.jfif",      
+      "/Images/Perfumes/2c.jfif",     
+      "/Images/Perfumes/2d.jfif" ,      
+       "/Images/Perfumes/2e.jfif" 
     ],
       boughtPastMonth: "500k+",
       delivery: "Tue, Jan 20",
@@ -180,13 +177,13 @@ useEffect(() => {
       oldPrice: 45000,
       rating: 4.5,
       reviews: "2,189",
-      image: "images/Perfumes/3.jfif", 
+      image: "/Images/Perfumes/3.jfif", 
     gallery: [
-      "images/Perfumes/3a.jfif",     
-      "images/Perfumes/3b.jfif",      
-      "images/Perfumes/3c.jfif",     
-      "images/Perfumes/3d.jfif" ,      
-       "images/Perfumes/3e.jfif" 
+      "/Images/Perfumes/3a.jfif",     
+      "/Images/Perfumes/3b.jfif",      
+      "/Images/Perfumes/3c.jfif",     
+      "/Images/Perfumes/3d.jfif" ,      
+       "/Images/Perfumes/3e.jfif" 
     ],
       boughtPastMonth: "2K+",
       delivery: "Wed, Jan 21",
@@ -201,13 +198,13 @@ useEffect(() => {
       oldPrice: 864997,
       rating: 4.3,
       reviews: "9,902",
-      image: "images/Perfumes/4.jfif", 
+      image: "/Images/Perfumes/4.jfif", 
         gallery: [
-      "images/Perfumes/4a.jfif",     
-      "images/Perfumes/4b.jfif",      
-      "images/Perfumes/4c.jfif",     
-      "images/Perfumes/4d.jfif" ,      
-       "images/Perfumes/4e.jfif" 
+      "/Images/Perfumes/4a.jfif",     
+      "/Images/Perfumes/4b.jfif",      
+      "/Images/Perfumes/4c.jfif",     
+      "/Images/Perfumes/4d.jfif" ,      
+       "/Images/Perfumes/4e.jfif" 
     ],
       boughtPastMonth: "87K+",
       delivery: "wede, feb 20",
@@ -222,13 +219,13 @@ useEffect(() => {
       oldPrice: 857597,
       rating: 4.8,
       reviews: "90,50",
-      image: "images/Perfumes/5.jfif", 
+      image: "/Images/Perfumes/5.jfif", 
         gallery: [
-      "images/Perfumes/5a.jfif",     
-      "images/Perfumes/5b.jfif",      
-      "images/Perfumes/5c.jfif",     
-      "images/Perfumes/5d.jfif" ,      
-       "images/Perfumes/5e.jfif" 
+      "/Images/Perfumes/5a.jfif",     
+      "/Images/Perfumes/5b.jfif",      
+      "/Images/Perfumes/5c.jfif",     
+      "/Images/Perfumes/5d.jfif" ,      
+       "/Images/Perfumes/5e.jfif" 
     ],
       boughtPastMonth: "870+",
       delivery: "Fri, novn 30",
@@ -243,13 +240,13 @@ useEffect(() => {
       oldPrice: 756200,
       rating: 4.1,
       reviews: "8,189",
-      image: "images/Perfumes/6.jfif", 
+      image: "/Images/Perfumes/6.jfif", 
     gallery: [
-      "images/Perfumes/6a.jfif",     
-      "images/Perfumes/6b.jfif",      
-      "images/Perfumes/6c.jfif",     
-      "images/Perfumes/6d.jfif" ,      
-       "images/Perfumes/6e.jfif" 
+      "/Images/Perfumes/6a.jfif",     
+      "/Images/Perfumes/6b.jfif",      
+      "/Images/Perfumes/6c.jfif",     
+      "/Images/Perfumes/6d.jfif" ,      
+       "/Images/Perfumes/6e.jfif" 
     ],
       boughtPastMonth: "76K+",
       delivery: "mon, jul 22",
@@ -264,13 +261,13 @@ useEffect(() => {
       oldPrice: 98997,
       rating: 3.3,
       reviews: "657,302",
-      image: "images/Perfumes/7.jfif", 
+      image: "/Images/Perfumes/7.jfif", 
         gallery: [
-      "images/Perfumes/7a.jfif",     
-      "images/Perfumes/7b.jfif",      
-      "images/Perfumes/7c.jfif",     
-      "images/Perfumes/7d.jfif" ,      
-       "images/Perfumes/7e.jfif" 
+      "/Images/Perfumes/7a.jfif",     
+      "/Images/Perfumes/7b.jfif",      
+      "/Images/Perfumes/7c.jfif",     
+      "/Images/Perfumes/7d.jfif" ,      
+       "/Images/Perfumes/7e.jfif" 
     ],
       boughtPastMonth: "35K+",
       delivery: "Thur, jun 10",
@@ -285,13 +282,13 @@ useEffect(() => {
       oldPrice: 97597,
       rating: 2.8,
       reviews: "765,0",
-      image: "images/Perfumes/8.jfif", 
+      image: "/Images/Perfumes/8.jfif", 
         gallery: [
-      "images/Perfumes/8a.jfif",     
-      "images/Perfumes/8b.jfif",      
-      "images/Perfumes/8c.jfif",     
-      "images/Perfumes/8d.jfif" ,      
-       "images/Perfumes/8e.jfif" 
+      "/Images/Perfumes/8a.jfif",     
+      "/Images/Perfumes/8b.jfif",      
+      "/Images/Perfumes/8c.jfif",     
+      "/Images/Perfumes/8d.jfif" ,      
+       "/Images/Perfumes/8e.jfif" 
     ],
       boughtPastMonth: "1290+",
       delivery: "Tues, Dec 12",
@@ -306,13 +303,13 @@ useEffect(() => {
       oldPrice: 4500,
       rating: 4.4,
       reviews: "8,099",
-      image: "images/Perfumes/9.jfif", 
+      image: "/Images/Perfumes/9.jfif", 
     gallery: [
-      "images/Perfumes/9a.jfif",     
-      "images/Perfumes/9b.jfif",      
-      "images/Perfumes/9c.jfif",     
-      "images/Perfumes/9d.jfif" ,      
-       "images/Perfumes/9e.jfif" 
+      "/Images/Perfumes/9a.jfif",     
+      "/Images/Perfumes/9b.jfif",      
+      "/Images/Perfumes/9c.jfif",     
+      "/Images/Perfumes/9d.jfif" ,      
+       "/Images/Perfumes/9e.jfif" 
     ],
       boughtPastMonth: "345K+",
       delivery: "Sat, April 16",
@@ -327,13 +324,13 @@ useEffect(() => {
       oldPrice: 997,
       rating: 4.0,
       reviews: "87,02",
-      image: "images/Perfumes/10.jfif", 
+      image: "/Images/Perfumes/10.jfif", 
         gallery: [
-      "images/Perfumes/10a.jfif",     
-      "images/Perfumes/10b.jfif",      
-      "images/Perfumes/10c.jfif",     
-      "images/Perfumes/10d.jfif" ,      
-       "images/Perfumes/10e.jfif" 
+      "/Images/Perfumes/10a.jfif",     
+      "/Images/Perfumes/10b.jfif",      
+      "/Images/Perfumes/10c.jfif",     
+      "/Images/Perfumes/10d.jfif" ,      
+       "/Images/Perfumes/10e.jfif" 
     ],
       boughtPastMonth: "39K+",
       delivery: "Tue, Dec 3",
@@ -348,13 +345,13 @@ useEffect(() => {
       oldPrice: 2437,
       rating: 4.9,
       reviews: "62,680",
-      image: "images/Perfumes/11.jfif", 
+      image: "/Images/Perfumes/11.jfif", 
         gallery: [
-      "images/Perfumes/11a.jfif",     
-      "images/Perfumes/11b.jfif",      
-      "images/Perfumes/11c.jfif",     
-      "images/Perfumes/11d.jfif" ,      
-       "images/Perfumes/11e.jfif" 
+      "/Images/Perfumes/11a.jfif",     
+      "/Images/Perfumes/11b.jfif",      
+      "/Images/Perfumes/11c.jfif",     
+      "/Images/Perfumes/11d.jfif" ,      
+       "/Images/Perfumes/11e.jfif" 
     ],
       boughtPastMonth: "800+",
       delivery: "Tues, May 5",
@@ -369,13 +366,13 @@ useEffect(() => {
       oldPrice: 4900,
       rating: 3.5,
       reviews: "546,09",
-      image: "images/Perfumes/12.jfif", 
+      image: "/Images/Perfumes/12.jfif", 
     gallery: [
-      "images/Perfumes/12a.jfif",     
-      "images/Perfumes/12b.jfif",      
-      "images/Perfumes/12c.jfif",     
-      "images/Perfumes/12d.jfif" ,      
-       "images/Perfumes/12e.jfif" 
+      "/Images/Perfumes/12a.jfif",     
+      "/Images/Perfumes/12b.jfif",      
+      "/Images/Perfumes/12c.jfif",     
+      "/Images/Perfumes/12d.jfif" ,      
+       "/Images/Perfumes/12e.jfif" 
     ],
       boughtPastMonth: "34K+",
       delivery: "Wed, March 31",
@@ -390,13 +387,13 @@ useEffect(() => {
       oldPrice: 23997,
       rating: 4.1,
       reviews: "12,872",
-      image: "images/Perfumes/13.jfif", 
+      image: "/Images/Perfumes/13.jfif", 
         gallery: [
-      "images/Perfumes/13a.jfif",     
-      "images/Perfumes/13b.jfif",      
-      "images/Perfumes/13c.jfif",     
-      "images/Perfumes/13d.jfif" ,      
-       "images/Perfumes/13e.jfif" 
+      "/Images/Perfumes/13a.jfif",     
+      "/Images/Perfumes/13b.jfif",      
+      "/Images/Perfumes/13c.jfif",     
+      "/Images/Perfumes/13d.jfif" ,      
+       "/Images/Perfumes/13e.jfif" 
     ],
       boughtPastMonth: "87K+",
       delivery: "Mon, August 14",
@@ -411,13 +408,13 @@ useEffect(() => {
       oldPrice: 37597,
       rating: 2.8,
       reviews: "91,250",
-      image: "images/Perfumes/14.jfif", 
+      image: "/Images/Perfumes/14.jfif", 
         gallery: [
-      "images/Perfumes/14a.jfif",     
-      "images/Perfumes/14b.jfif",      
-      "images/Perfumes/14c.jfif",     
-      "images/Perfumes/14d.jfif" ,      
-       "images/Perfumes/14e.jfif" 
+      "/Images/Perfumes/14a.jfif",     
+      "/Images/Perfumes/14b.jfif",      
+      "/Images/Perfumes/14c.jfif",     
+      "/Images/Perfumes/14d.jfif" ,      
+       "/Images/Perfumes/14e.jfif" 
     ],
       boughtPastMonth: "35+",
       delivery: "Fri, Oct 30",
@@ -432,13 +429,13 @@ useEffect(() => {
       oldPrice: 45000,
       rating: 4.5,
       reviews: "2,189",
-      image: "images/Perfumes/15.jfif", 
+      image: "/Images/Perfumes/15.jfif", 
     gallery: [
-      "images/Perfumes/15a.jfif",     
-      "images/Perfumes/15b.jfif",      
-      "images/Perfumes/15c.jfif",     
-      "images/Perfumes/15d.jfif" ,      
-       "images/Perfumes/15e.jfif" 
+      "/Images/Perfumes/15a.jfif",     
+      "/Images/Perfumes/15b.jfif",      
+      "/Images/Perfumes/15c.jfif",     
+      "/Images/Perfumes/15d.jfif" ,      
+       "/Images/Perfumes/15e.jfif" 
     ],
       boughtPastMonth: "69K+",
       delivery: "Thur, Nov 21",
